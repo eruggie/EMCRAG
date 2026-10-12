@@ -1,0 +1,474 @@
+{
+  "notebooks": 9,
+  "copied_or_extracted_artefacts": 71,
+  "modified_code_cells": 2,
+  "output_blocks_removed": 279,
+  "originals_unchanged": true,
+  "code_ast_errors": [],
+  "secret_pattern_findings": [],
+  "notebook_structure": [
+    {
+      "notebook": "CRAG_MedGemma_v.06.11.ipynb",
+      "nbformat": 4,
+      "nbformat_minor": 5,
+      "missing_cell_ids": 0
+    },
+    {
+      "notebook": "EMCRAG_Prepare_Inputs_196.ipynb",
+      "nbformat": 4,
+      "nbformat_minor": 5,
+      "missing_cell_ids": 0
+    },
+    {
+      "notebook": "EMCRAG_FT_v.07.01_DataPrep_Pilot.ipynb",
+      "nbformat": 4,
+      "nbformat_minor": 5,
+      "missing_cell_ids": 0
+    },
+    {
+      "notebook": "EMCRAG_R1_Benchmark_v07_04.ipynb",
+      "nbformat": 4,
+      "nbformat_minor": 5,
+      "missing_cell_ids": 0
+    },
+    {
+      "notebook": "EMCRAG_M0_M1_Standalone_Benchmark_v07_03.ipynb",
+      "nbformat": 4,
+      "nbformat_minor": 5,
+      "missing_cell_ids": 0
+    },
+    {
+      "notebook": "EMCRAG_R0_R1_RAGAS_v07_05.ipynb",
+      "nbformat": 4,
+      "nbformat_minor": 5,
+      "missing_cell_ids": 0
+    },
+    {
+      "notebook": "EMCRAG_M0_M1_RAGAS_v07_03.ipynb",
+      "nbformat": 4,
+      "nbformat_minor": 5,
+      "missing_cell_ids": 0
+    },
+    {
+      "notebook": "Chroma_DB/Knowledge_Injection.ipynb",
+      "nbformat": 4,
+      "nbformat_minor": 5,
+      "missing_cell_ids": 0
+    },
+    {
+      "notebook": "Chroma_DB/Analisi_Chroma_DB_Local.ipynb",
+      "nbformat": 4,
+      "nbformat_minor": 5,
+      "missing_cell_ids": 0
+    }
+  ],
+  "json_objects_checked": 2542,
+  "preserved_generator_sha256": "703c7e3fddfcd9b0e0fdbacf1049ba4d58de9540cae589f21e20e91bd7989189",
+  "binary_figures_pending_text_metadata_review": [],
+  "not_run": [
+    "Complete notebooks",
+    "Training",
+    "GPU benchmarks",
+    "Paid API evaluations",
+    "End-to-end reconstruction",
+    "Fresh dependency installation"
+  ],
+  "notes": [
+    "JSON and Python AST checks passed for all nine notebooks.",
+    "All nine notebooks pass official nbformat 4.5 schema after the documented non-executable id repair.",
+    "CITATION.cff passes the official schema.",
+    "Only extracted pure numerical functions were run on CPU; no notebook/API/model was executed.",
+    "Publication/history scan is performed after staging."
+  ],
+  "notebook_official_schema_validation": [
+    {
+      "notebook": "CRAG_MedGemma_v.06.11.ipynb",
+      "valid": true,
+      "error_paths": [],
+      "missing_cell_id_count": 0,
+      "note": "Official Jupyter v4.5 schema passed."
+    },
+    {
+      "notebook": "EMCRAG_Prepare_Inputs_196.ipynb",
+      "valid": true,
+      "error_paths": [],
+      "missing_cell_id_count": 0,
+      "note": "Official Jupyter v4.5 schema passed."
+    },
+    {
+      "notebook": "EMCRAG_FT_v.07.01_DataPrep_Pilot.ipynb",
+      "valid": true,
+      "error_paths": [],
+      "missing_cell_id_count": 0,
+      "note": "Official Jupyter v4.5 schema passed."
+    },
+    {
+      "notebook": "EMCRAG_R1_Benchmark_v07_04.ipynb",
+      "valid": true,
+      "error_paths": [],
+      "missing_cell_id_count": 0,
+      "note": "Official Jupyter v4.5 schema passed."
+    },
+    {
+      "notebook": "EMCRAG_M0_M1_Standalone_Benchmark_v07_03.ipynb",
+      "valid": true,
+      "error_paths": [],
+      "missing_cell_id_count": 0,
+      "note": "Official Jupyter v4.5 schema passed."
+    },
+    {
+      "notebook": "EMCRAG_R0_R1_RAGAS_v07_05.ipynb",
+      "valid": true,
+      "error_paths": [],
+      "missing_cell_id_count": 0,
+      "note": "Official Jupyter v4.5 schema passed."
+    },
+    {
+      "notebook": "EMCRAG_M0_M1_RAGAS_v07_03.ipynb",
+      "valid": true,
+      "error_paths": [],
+      "missing_cell_id_count": 0,
+      "note": "11 deterministic ids added as non-executable metadata; all source and execution settings unchanged."
+    },
+    {
+      "notebook": "Chroma_DB/Knowledge_Injection.ipynb",
+      "valid": true,
+      "error_paths": [],
+      "missing_cell_id_count": 0,
+      "note": "Official Jupyter v4.5 schema passed."
+    },
+    {
+      "notebook": "Chroma_DB/Analisi_Chroma_DB_Local.ipynb",
+      "valid": true,
+      "error_paths": [],
+      "missing_cell_id_count": 0,
+      "note": "Official Jupyter v4.5 schema passed."
+    }
+  ],
+  "citation_schema_valid": true,
+  "relative_documentation_links_valid": true,
+  "pure_statistical_function_checks": [
+    {
+      "comparison": "M0_M1",
+      "group": "Overall",
+      "n": 193,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "M0_M1",
+      "group": "IMB_Curated_Test_Set_1000",
+      "n": 98,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "M0_M1",
+      "group": "MMMED_Italian",
+      "n": 95,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "R0_R1",
+      "metric": "context_precision",
+      "group": "Overall",
+      "n": 194,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "R0_R1",
+      "metric": "context_precision",
+      "group": "IMB_Curated_Test_Set_1000",
+      "n": 100,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "R0_R1",
+      "metric": "context_precision",
+      "group": "MMMED_Italian",
+      "n": 94,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "R0_R1",
+      "metric": "context_recall",
+      "group": "Overall",
+      "n": 194,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "R0_R1",
+      "metric": "context_recall",
+      "group": "IMB_Curated_Test_Set_1000",
+      "n": 100,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "R0_R1",
+      "metric": "context_recall",
+      "group": "MMMED_Italian",
+      "n": 94,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "R0_R1",
+      "metric": "faithfulness",
+      "group": "Overall",
+      "n": 191,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "R0_R1",
+      "metric": "faithfulness",
+      "group": "IMB_Curated_Test_Set_1000",
+      "n": 97,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "R0_R1",
+      "metric": "faithfulness",
+      "group": "MMMED_Italian",
+      "n": 94,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "R0_R1",
+      "metric": "response_relevancy",
+      "group": "Overall",
+      "n": 194,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "R0_R1",
+      "metric": "response_relevancy",
+      "group": "IMB_Curated_Test_Set_1000",
+      "n": 100,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "R0_R1",
+      "metric": "response_relevancy",
+      "group": "MMMED_Italian",
+      "n": 94,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "R0_R1",
+      "metric": "noise_sensitivity",
+      "group": "Overall",
+      "n": 191,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "R0_R1",
+      "metric": "noise_sensitivity",
+      "group": "IMB_Curated_Test_Set_1000",
+      "n": 99,
+      "mismatched_fields": []
+    },
+    {
+      "comparison": "R0_R1",
+      "metric": "noise_sensitivity",
+      "group": "MMMED_Italian",
+      "n": 92,
+      "mismatched_fields": []
+    }
+  ],
+  "statistical_mismatches": [],
+  "figure_file_checks": [
+    {
+      "path": "experimental_freeze_v07_06/paper_tables_figures/Figure_6_scatter_standalone_vs_pipeline_effects.pdf",
+      "type": "PDF",
+      "header_valid": true,
+      "flate_streams_checked": 54,
+      "secret_pattern_found": false
+    },
+    {
+      "path": "experimental_freeze_v07_06/paper_tables_figures/Figure_7_exploratory_effect_contrast_forest.pdf",
+      "type": "PDF",
+      "header_valid": true,
+      "flate_streams_checked": 48,
+      "secret_pattern_found": false
+    },
+    {
+      "path": "experimental_freeze_v07_06/paper_tables_figures/Figure_1_four_system_response_relevancy_bars.pdf",
+      "type": "PDF",
+      "header_valid": true,
+      "flate_streams_checked": 43,
+      "secret_pattern_found": false
+    },
+    {
+      "path": "experimental_freeze_v07_06/paper_tables_figures/Figure_7_exploratory_effect_contrast_forest.png",
+      "type": "PNG",
+      "valid": true,
+      "dimensions": [
+        2370,
+        1262
+      ],
+      "secret_pattern_found": false
+    },
+    {
+      "path": "experimental_freeze_v07_06/paper_tables_figures/Figure_5_scatter_clouds_R0_vs_R1_all_metrics.png",
+      "type": "PNG",
+      "valid": true,
+      "dimensions": [
+        4039,
+        2703
+      ],
+      "secret_pattern_found": false
+    },
+    {
+      "path": "experimental_freeze_v07_06/paper_tables_figures/Figure_6_scatter_standalone_vs_pipeline_effects.png",
+      "type": "PNG",
+      "valid": true,
+      "dimensions": [
+        1971,
+        1952
+      ],
+      "secret_pattern_found": false
+    },
+    {
+      "path": "experimental_freeze_v07_06/paper_tables_figures/Figure_3_overall_win_tie_loss_bars.png",
+      "type": "PNG",
+      "valid": true,
+      "dimensions": [
+        3119,
+        1593
+      ],
+      "secret_pattern_found": false
+    },
+    {
+      "path": "experimental_freeze_v07_06/paper_tables_figures/Figure_2_overall_paired_effects_forest.pdf",
+      "type": "PDF",
+      "header_valid": true,
+      "flate_streams_checked": 49,
+      "secret_pattern_found": false
+    },
+    {
+      "path": "experimental_freeze_v07_06/paper_tables_figures/Figure_5_scatter_clouds_R0_vs_R1_all_metrics.pdf",
+      "type": "PDF",
+      "header_valid": true,
+      "flate_streams_checked": 64,
+      "secret_pattern_found": false
+    },
+    {
+      "path": "experimental_freeze_v07_06/paper_tables_figures/Figure_1_four_system_response_relevancy_bars.png",
+      "type": "PNG",
+      "valid": true,
+      "dimensions": [
+        3930,
+        1375
+      ],
+      "secret_pattern_found": false
+    },
+    {
+      "path": "experimental_freeze_v07_06/paper_tables_figures/Figure_2_overall_paired_effects_forest.png",
+      "type": "PNG",
+      "valid": true,
+      "dimensions": [
+        2729,
+        1562
+      ],
+      "secret_pattern_found": false
+    },
+    {
+      "path": "experimental_freeze_v07_06/paper_tables_figures/Figure_4_scatter_cloud_M0_vs_M1.pdf",
+      "type": "PDF",
+      "header_valid": true,
+      "flate_streams_checked": 46,
+      "secret_pattern_found": false
+    },
+    {
+      "path": "experimental_freeze_v07_06/paper_tables_figures/Figure_3_overall_win_tie_loss_bars.pdf",
+      "type": "PDF",
+      "header_valid": true,
+      "flate_streams_checked": 43,
+      "secret_pattern_found": false
+    },
+    {
+      "path": "experimental_freeze_v07_06/paper_tables_figures/Figure_4_scatter_cloud_M0_vs_M1.png",
+      "type": "PNG",
+      "valid": true,
+      "dimensions": [
+        1855,
+        1892
+      ],
+      "secret_pattern_found": false
+    }
+  ],
+  "formal_schema_limitation": null,
+  "resolved_format_issue": {
+    "notebook": "EMCRAG_M0_M1_RAGAS_v07_03.ipynb",
+    "cell_id_updates": [
+      {
+        "cell": 1,
+        "original_id": null,
+        "release_id": "emcrag-ragas-1-b9f4c0b7e81b",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 2,
+        "original_id": null,
+        "release_id": "emcrag-ragas-2-535faa47a37e",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 3,
+        "original_id": null,
+        "release_id": "emcrag-ragas-3-f2c47ca6f6f4",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 4,
+        "original_id": null,
+        "release_id": "emcrag-ragas-4-64dfec049a9f",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 5,
+        "original_id": null,
+        "release_id": "emcrag-ragas-5-3e8873a24910",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 6,
+        "original_id": null,
+        "release_id": "emcrag-ragas-6-9137c2c5ce90",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 8,
+        "original_id": null,
+        "release_id": "emcrag-ragas-8-723496eec9c9",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 9,
+        "original_id": null,
+        "release_id": "emcrag-ragas-9-0a82f4f64a94",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 10,
+        "original_id": null,
+        "release_id": "emcrag-ragas-10-a19cb75c0e67",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 11,
+        "original_id": null,
+        "release_id": "emcrag-ragas-11-2ccc8e88a998",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 12,
+        "original_id": null,
+        "release_id": "emcrag-ragas-12-e64f5a7e859c",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      }
+    ]
+  },
+  "recovered_baseline_excerpt_check": {
+    "cliffs_delta_faithfulness": 0.6862373737373737,
+    "holm_p_faithfulness": 2.478231563846402e-16,
+    "original_bootstrap_workflow_recovered": false
+  }
+}

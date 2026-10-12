@@ -1,0 +1,12 @@
+{
+  "id": "job_20260904_181242_e15ab670",
+  "status": "completed",
+  "model_name": "google/medgemma-1.5-4b-it",
+  "dataset_name": "/home/eugrug/.unsloth/studio/assets/datasets/uploads/90ec84fc9f964a8b8db812309d9a8b82_imb_ft_010k_STRAT_sft_messages.jsonl",
+  "started_at": "2026-09-04T16:12:51.267335+00:00",
+  "ended_at": "2026-09-05T00:33:20.779864+00:00",
+  "total_steps": 1245,
+  "final_step": 1245,
+  "final_loss": 1.7038533687591553,
+  "output_dir": "/home/eugrug/.unsloth/studio/outputs/google_medgemma-1.5-4b-it__project-emcrag_ft_imb_010k_googlebase_v0702_1788538483"
+}

@@ -1,0 +1,17 @@
+EMCRAG
+Copyright 2026 Eugenio Ruggieri
+
+Author-owned source and release documentation: Apache License 2.0.
+Third-party libraries, datasets, models and model-derived configurations retain
+their respective licences and terms, as explained in THIRD_PARTY_NOTICES.md.
+
+No datasets, downloaded medical images, base-model weights or trained adapter
+weights are distributed in this source release.
+
+MedGemma-related configurations are documented under the upstream terms:
+HAI-DEF is provided under and subject to the Health AI Developer Foundations
+Terms of Use found at
+https://developers.google.com/health-ai-developer-foundations/terms
+
+This research source release does not claim acceptance/publication of the
+associated manuscript or clinical validation.

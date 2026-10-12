@@ -1,0 +1,8 @@
+{
+  "epoch": 1.0,
+  "global_step": 1245,
+  "max_steps": 1245,
+  "num_train_epochs": 1,
+  "train_batch_size": 1,
+  "num_input_tokens_seen": 3893306
+}

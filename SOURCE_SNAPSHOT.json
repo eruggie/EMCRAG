@@ -1,0 +1,42 @@
+{
+  "manuscript_sha256": "ab6f7479bba1306d106488646fff4c628d9e5d816605aa511502790ffc416c49",
+  "notebooks": [
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/CRAG_MedGemma_v.06.11.ipynb",
+      "sha256": "6f842c4658a1d70a1a9a864d438c243c3b1af3ee47fdf6fd5ac5d7d1594e74a1"
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/EMCRAG_Prepare_Inputs_196.ipynb",
+      "sha256": "378125f2514086ee12dad1d5ec36fd525500a63504f3194b3e0db2f1810a1542"
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/EMCRAG_FT_v.07.01_DataPrep_Pilot.ipynb",
+      "sha256": "db48c0fd7d0719eeb783217bf1ffb81e9486e21ea05554607a070729c9c746dc"
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/EMCRAG_M0_M1_Standalone_Benchmark_v07_03.ipynb",
+      "sha256": "87aee848aeb3104d0be27d7966f1a10aa36aa986317248e7b89bba868ab4fc0d"
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/EMCRAG_M0_M1_RAGAS_v07_03.ipynb",
+      "sha256": "1a85ddc5ebe50b7c200ce14f643bea8e940eb062ace4eb56ecb8141596681d2e"
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/EMCRAG_R1_Benchmark_v07_04.ipynb",
+      "sha256": "4e637096740534576291ebec655853bac3cbebce3f1eaf1165bf837a7edce546"
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/EMCRAG_R0_R1_RAGAS_v07_05.ipynb",
+      "sha256": "036f87b7fe7bf843229324783c3b6601e1c793038158a5b5f2760081180650fd"
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/Chroma_DB/Knowledge_Injection.ipynb",
+      "sha256": "360c55cd9a6e7a5f0f3792ca3d3014572df36885ca670dffe67582a504e0cc21"
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/Chroma_DB/Analisi_Chroma_DB_Local.ipynb",
+      "sha256": "18f215c34d6e09c0687383ab8044339b4ca6526fe6d53e87b3aa2c4900039518"
+    }
+  ],
+  "note": "Source state after author saved the R0/R1 notebook; no original was changed by release preparation."
+}

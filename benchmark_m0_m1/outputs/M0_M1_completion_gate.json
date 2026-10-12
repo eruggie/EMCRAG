@@ -1,0 +1,13 @@
+{
+  "M0_complete": 196,
+  "M0_eligible": 195,
+  "M1_complete": 196,
+  "M1_eligible": 194,
+  "contract_sha256": "7c16195744b17120e21bd6fb7fe57aa1c18eea3a4e99a2721d46a572df91dd85",
+  "image_identity": true,
+  "manifest_sha256": "51fe2c0d201bf00a9bbed368195009d4ad72edbe740f146179cf04694389c1b5",
+  "paired_complete": 196,
+  "paired_sha256": "b4a2dcbf38bdcad143b4cffcf4909de5ce59e588b8a4b505a4b058ec230d1bf6",
+  "prompt_identity": true,
+  "status": "PASS"
+}

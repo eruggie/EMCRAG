@@ -1,0 +1,161 @@
+{
+  "analysis": "Integrated M0-M1 and R0-R1 paper analysis",
+  "artifacts": [
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Table_integrated_M0_M1_R0_R1_summary.csv",
+      "sha256": "9d7258401aa714a3942189f6a7044ef9198f583b816304d1b96dd1bf4449303b",
+      "size_bytes": 3547
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Table_four_system_response_relevancy_common_cases.csv",
+      "sha256": "9446af51e6c62a15cfcfc1e111c50f7edb2ea0b3bfc743d3810f99f45455525b",
+      "size_bytes": 29425
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Table_four_system_response_relevancy_means.csv",
+      "sha256": "66028d4bc00f748c40405158ec83c5e9a7f5fb6ed747d67d62632d77f9ecd20a",
+      "size_bytes": 1049
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Table_exploratory_effect_contrast.csv",
+      "sha256": "c969ec0ab1558e20ef67afb9c2c20361c4a71e88090975509b52ba39cb00f63d",
+      "size_bytes": 728
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Table_paper_ready_integrated_results.csv",
+      "sha256": "198c631727a4c76c426f1da0e3d6554b2ef7b1af43696c304967bada11aab0df",
+      "size_bytes": 2624
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Table_paper_ready_integrated_results.tex",
+      "sha256": "fed6016c674fde6ad0bdef3eb2617a4927c97c566832bdb9c41eeb258552f9d7",
+      "size_bytes": 2390
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_4_source_data_M0_M1.csv",
+      "sha256": "aaaefe9030716ae3258c2edf36d60910e72c03b356caf963725fa93d101e2704",
+      "size_bytes": 16009
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_5_source_data_R0_R1.csv",
+      "sha256": "1ba4f03e56b0a0c3f3ccd3ff75c87e2ee22c35932207ae75cda1c61c53d57d3c",
+      "size_bytes": 78347
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_6_source_data_effect_comparison.csv",
+      "sha256": "9446af51e6c62a15cfcfc1e111c50f7edb2ea0b3bfc743d3810f99f45455525b",
+      "size_bytes": 29425
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/README_tables_figures.md",
+      "sha256": "644b9935af79a7a47b637ddeee8261d93fe0ca6d6ec67d5040c041d1adb11fe7",
+      "size_bytes": 3014
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_1_four_system_response_relevancy_bars.png",
+      "sha256": "714442c48def16bab150415e37b06671a5b1d521760e32f9e770e7b9d61506be",
+      "size_bytes": 126590
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_1_four_system_response_relevancy_bars.pdf",
+      "sha256": "f31239eae0b973f35297867b94c51ab34cbc4d02ef14cda31d14358b2dcf58f1",
+      "size_bytes": 17823
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_2_overall_paired_effects_forest.png",
+      "sha256": "e853bc7776627bc59cc7dc4f6c698cec8b0f2bcc142bdf7ec9a078e6583ba097",
+      "size_bytes": 155067
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_2_overall_paired_effects_forest.pdf",
+      "sha256": "c21491813cb2191a4a5921d20c0fe689120ae2dd76f00b57034483e275a31b50",
+      "size_bytes": 18939
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_3_overall_win_tie_loss_bars.png",
+      "sha256": "4842181ef04ca40519e79c98b4c1455c3866a7043b6f56373bd92aecf8b06d0a",
+      "size_bytes": 143019
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_3_overall_win_tie_loss_bars.pdf",
+      "sha256": "c7f6b7c0e3cdafe014e5721ebe053fbdf3063ccfe3550e037eb64b0cf8f120c1",
+      "size_bytes": 16418
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_4_scatter_cloud_M0_vs_M1.png",
+      "sha256": "a70192b117182aab6fe5e38726384cb701268cb0d1420d29129f4c2d9b534564",
+      "size_bytes": 221924
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_4_scatter_cloud_M0_vs_M1.pdf",
+      "sha256": "248aa725046484181dbe58677ccd8a1e40624c9370fd6386f2ad6476467f878c",
+      "size_bytes": 92078
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_5_scatter_clouds_R0_vs_R1_all_metrics.png",
+      "sha256": "9513bf03b3fb03f3d7e40b460aae17f7966543116cc3fa147b952b0d0d89c14b",
+      "size_bytes": 537674
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_5_scatter_clouds_R0_vs_R1_all_metrics.pdf",
+      "sha256": "66468ed1a4d0751f516f3dc49edc33dccf3c9346773076a989d00a1350bf62fb",
+      "size_bytes": 206969
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_6_scatter_standalone_vs_pipeline_effects.png",
+      "sha256": "011adb2066498c9ea00a3126d147eb4e8e7f00ce43c431276cacaccfd3a49f35",
+      "size_bytes": 265921
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_6_scatter_standalone_vs_pipeline_effects.pdf",
+      "sha256": "520c77f3dc8d613b2335ee48d55b2cc81109a32fcaeecf9f38c98cf511aa4617",
+      "size_bytes": 102942
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_7_exploratory_effect_contrast_forest.png",
+      "sha256": "36ffc5503ad929e113671e583ca3b6401e692b28845e5120a88cab7fd2e18395",
+      "size_bytes": 106139
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/experimental_freeze_v07_06/paper_tables_figures/Figure_7_exploratory_effect_contrast_forest.pdf",
+      "sha256": "ffae4f9eee5cf6e0183a13b2e6d9d8df23deb2d3a85128e5b54a765c35dcfa44",
+      "size_bytes": 17919
+    }
+  ],
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20260831,
+  "cohorts": {
+    "M0_M1_paired": 193,
+    "R0_R1_response_relevancy_paired": 194,
+    "four_system_common": 191
+  },
+  "created_with": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.4.2",
+    "pandas": "3.0.0",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.11.14 | packaged by conda-forge | (main, Jan 26 2026, 23:48:32) [GCC 14.3.0]",
+    "scipy": "1.17.0"
+  },
+  "input_files": [
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/benchmark_m0_m1/ragas_m0_m1_v07_03/response_relevancy_statistical_summary.csv",
+      "sha256": "dbf5a7aff781254d1cb2a5fced1b99ddd1010719d351eef63b75c2d851329c68"
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/benchmark_m0_m1/ragas_m0_m1_v07_03/response_relevancy_paired_differences.jsonl",
+      "sha256": "94945389e62e54ede190da9d9169659932d8c1eaddf7bcc9a63c0421c147442b"
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/benchmark_r0_r1/ragas_r1_v07_05/paired_analysis_r0_r1/R0_R1_statistical_summary.csv",
+      "sha256": "3b34921674d3fe7cf5a4d724e024c76074f6fe6d3cccc15af8edc8e99621cc2a"
+    },
+    {
+      "path": "/home/eugrug/Project_CRAG_MedGemma/benchmark_r0_r1/ragas_r1_v07_05/paired_analysis_r0_r1/R0_R1_paired_differences.csv",
+      "sha256": "74a4c2323427112b1225ffd5fb8f592ad5fd509f859e3592b5fd2c8a408718c2"
+    }
+  ],
+  "scatter_jitter_sd_display_only": 0.004,
+  "scatter_seed": 20261006,
+  "status": "PASS"
+}

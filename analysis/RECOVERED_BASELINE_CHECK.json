@@ -1,0 +1,66 @@
+{
+  "baseline_sha256": "4fd9d66e73d9d402210f10edaac87216daad47273bfedf4f1a48a56debf6a29b",
+  "baseline_n": 196,
+  "metrics": {
+    "context_precision": {
+      "n_IMB": 100,
+      "n_MMMED": 96,
+      "mean_IMB": 0.914999999923639,
+      "mean_MMMED": 0.07552083332682291,
+      "cliffs_delta": 0.9176041666666668,
+      "mann_whitney_p": 2.887759374686747e-32,
+      "holm_p": 1.4438796873433734e-31
+    },
+    "context_recall": {
+      "n_IMB": 100,
+      "n_MMMED": 96,
+      "mean_IMB": 0.5907142857142857,
+      "mean_MMMED": 0.08854166666666667,
+      "cliffs_delta": 0.6889583333333333,
+      "mann_whitney_p": 8.940600792206812e-20,
+      "holm_p": 2.6821802376620433e-19
+    },
+    "faithfulness": {
+      "n_IMB": 99,
+      "n_MMMED": 96,
+      "mean_IMB": 0.5397528995875783,
+      "mean_MMMED": 0.2353047192652845,
+      "cliffs_delta": 0.6862373737373737,
+      "mann_whitney_p": 1.239115781923201e-16,
+      "holm_p": 2.478231563846402e-16
+    },
+    "response_relevancy": {
+      "n_IMB": 100,
+      "n_MMMED": 96,
+      "mean_IMB": 0.43439765938254754,
+      "mean_MMMED": 0.36824339153713864,
+      "cliffs_delta": 0.19437499999999996,
+      "mann_whitney_p": 0.01828714974782934,
+      "holm_p": 0.01828714974782934
+    },
+    "noise_sensitivity": {
+      "n_IMB": 99,
+      "n_MMMED": 94,
+      "mean_IMB": 0.29310004284082397,
+      "mean_MMMED": 0.016239147337230468,
+      "cliffs_delta": 0.9199441220717817,
+      "mann_whitney_p": 1.969891715322491e-31,
+      "holm_p": 7.879566861289964e-31
+    }
+  },
+  "spearman_precision_faithfulness": {
+    "pooled": {
+      "n": 195,
+      "rho": 0.5464973076647691
+    },
+    "IMB_Curated_Test_Set_1000": {
+      "n": 99,
+      "rho": 0.17300885092687746
+    },
+    "MMMED_Italian": {
+      "n": 96,
+      "rho": 0.03459745579552753
+    }
+  },
+  "scope": "Original recovered numerical excerpt executed on CPU; no inference, API or bootstrap reconstruction."
+}

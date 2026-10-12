@@ -1,0 +1,20 @@
+[
+  {
+    "role": "train_10000",
+    "studio_path": "/home/eugrug/.unsloth/studio/assets/datasets/uploads/90ec84fc9f964a8b8db812309d9a8b82_imb_ft_010k_STRAT_sft_messages.jsonl",
+    "project_path": "/home/eugrug/Project_CRAG_MedGemma/fine_tuning/v07_01/exports/imb_ft_010k_STRAT_sft_messages.jsonl",
+    "studio_sha256": "97beefc93b79ee5dcb347041cea819947f52f4ad62a9ebdca750006ca419c2c8",
+    "project_sha256": "97beefc93b79ee5dcb347041cea819947f52f4ad62a9ebdca750006ca419c2c8",
+    "rows": 10000,
+    "identical": true
+  },
+  {
+    "role": "validation_2000",
+    "studio_path": "/home/eugrug/.unsloth/studio/assets/datasets/uploads/6716f8a58d39434291af768467416bc3_imb_validation_2000_sft_messages.jsonl",
+    "project_path": "/home/eugrug/Project_CRAG_MedGemma/fine_tuning/v07_01/exports/imb_validation_2000_sft_messages.jsonl",
+    "studio_sha256": "0a37e414df3f6bf9136ef563fb74a4d4d59b628a58c67f160dcfd6a870511065",
+    "project_sha256": "0a37e414df3f6bf9136ef563fb74a4d4d59b628a58c67f160dcfd6a870511065",
+    "rows": 2000,
+    "identical": true
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "run_id": "ragas_v0611_20260719T010434Z",
+  "created_at_utc": "20260719T010434Z",
+  "ragas_version": "0.2.5",
+  "judge_model": "gpt-4o",
+  "embedding_model": "text-embedding-3-small",
+  "records_evaluated": 196,
+  "core_metrics": [
+    "context_precision",
+    "context_recall",
+    "faithfulness",
+    "response_relevancy"
+  ],
+  "noise_metric_available": true,
+  "ragas_evaluation_elapsed_sec": 6667.205,
+  "datasets": [
+    "IMB_Curated_Test_Set_1000",
+    "MMMED_Italian"
+  ],
+  "execution_modes": [
+    "multimodal",
+    "text_only"
+  ]
+}

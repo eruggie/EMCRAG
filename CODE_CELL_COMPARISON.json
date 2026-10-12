@@ -1,0 +1,2432 @@
+[
+  {
+    "notebook": "CRAG_MedGemma_v.06.11.ipynb",
+    "cells": 50,
+    "code_cells": 42,
+    "original_notebook_sha256": "6f842c4658a1d70a1a9a864d438c243c3b1af3ee47fdf6fd5ac5d7d1594e74a1",
+    "release_notebook_sha256": "48a39f6629dd360dec97365d23a45fb6b8e9a74aa4c9757adc010666730ac33f",
+    "cell_order_unchanged": true,
+    "metadata_unchanged": true,
+    "modified_code_cells": [
+      {
+        "cell": 13,
+        "cell_id": "0cd2a8c2",
+        "original_source_sha256": "d2ddca388b60c4c429d80168766d4c5f53e2ddfd775464f9d99d677fa6676551",
+        "release_source_sha256": "1183f9cad85c95a0e4ee7d90fb422cb97a61fad8bd5ec6d8fdf0fbeecbc9572b",
+        "reason": "Embedded Tavily credential replaced with os.environ[\"TAVILY_API_KEY\"]; existing os import retained."
+      }
+    ],
+    "removed_output_blocks": [
+      {
+        "cell": 11,
+        "cell_id": "329d4f28",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "30153102e9a02dfd9e1b68eaf96df1edcd48c5ffc9bdb92c931a6b21a33f6d0a",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 11,
+        "cell_id": "329d4f28",
+        "output_block": 2,
+        "output_type": "stream",
+        "original_output_sha256": "3304609d4a67d3cab8054c0d0c6bfa8dd775175e46164c51a4bec455ac9a1977",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 11,
+        "cell_id": "329d4f28",
+        "output_block": 3,
+        "output_type": "stream",
+        "original_output_sha256": "647495b8016b60055271dab6ff15650b113fdec25bc7da5029ff2e1431da6081",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 11,
+        "cell_id": "329d4f28",
+        "output_block": 4,
+        "output_type": "stream",
+        "original_output_sha256": "7f7fbadc4179f172110eb3252d3ba9e0ee732210ecbebd999edeb6e8aeab1f46",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 11,
+        "cell_id": "329d4f28",
+        "output_block": 5,
+        "output_type": "stream",
+        "original_output_sha256": "5d3a7bd894c4d7f3858a3cf427243b689173eda1bb269a497a39fa39ed42ec5d",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 12,
+        "cell_id": "02fcc8a3",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "a325c9c8a7470d63b5d2acbe45d3c7d74e50f3abd37372e801e899708687bf36",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 23,
+        "cell_id": "1dbe2446",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "80231f38d28e5fb6aa78d66ae4b3089575b983fe9c8be39de4599d6919fd7ca2",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 25,
+        "cell_id": "1d5d1c80",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "1d3e8aa657fde021bc5253f5a198f3b3a33c5b079b7cc97374b924d27274fc3a",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 25,
+        "cell_id": "1d5d1c80",
+        "output_block": 2,
+        "output_type": "display_data",
+        "original_output_sha256": "43025e5f8eb7131f46a800861e93450336ee546136dda51ad3b5bc87fd67c3d2",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 25,
+        "cell_id": "1d5d1c80",
+        "output_block": 3,
+        "output_type": "stream",
+        "original_output_sha256": "d51b26d083ce18495672f5dbcdee4e20a7a8c8571359940b4d80e1731c44e2a0",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 25,
+        "cell_id": "1d5d1c80",
+        "output_block": 4,
+        "output_type": "display_data",
+        "original_output_sha256": "c963048d33ae140411e417b357c5f2b79634684c0ba5d37d6e780cc26ec9b5d0",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 25,
+        "cell_id": "1d5d1c80",
+        "output_block": 5,
+        "output_type": "stream",
+        "original_output_sha256": "19f770a26c9a5e988dceb6357222d3eeabf944d241abb73310c005f6901b9681",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 25,
+        "cell_id": "1d5d1c80",
+        "output_block": 6,
+        "output_type": "display_data",
+        "original_output_sha256": "017b1813a15e2fe0c492744fb49fc5b2a73807882b8611bd23ffda96438c1667",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 25,
+        "cell_id": "1d5d1c80",
+        "output_block": 7,
+        "output_type": "stream",
+        "original_output_sha256": "4e1ff50cd11a18dcaa3786fea66bad34833d617bc24050b8557690f14c6796c1",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 28,
+        "cell_id": "89c5921c",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "73f82b60c24131f09984c0951d79cd2e563d8ee7d1041280d503114bbe9b26f7",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 28,
+        "cell_id": "89c5921c",
+        "output_block": 2,
+        "output_type": "display_data",
+        "original_output_sha256": "6a4559ca064e02a82e7356adfa223fd4389799e11e2389e85fc62af350ddc8ad",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 28,
+        "cell_id": "89c5921c",
+        "output_block": 3,
+        "output_type": "stream",
+        "original_output_sha256": "f89e71ef916bc970ce5bb4010120c39e9a4003aa2f4797cf4ffe04497db9c4d4",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 34,
+        "cell_id": "3f5c8d4c",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "154c951afba6a904d72905a7d657d7ad21171399352079e12014fc5d1c3ff9d3",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 38,
+        "cell_id": "45e3c1ad",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "71b769e3f3e5a2282a812a78d0dd37e7620acae16e770c1136e38163328fc9aa",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 38,
+        "cell_id": "45e3c1ad",
+        "output_block": 2,
+        "output_type": "display_data",
+        "original_output_sha256": "8fd030af5b4500e0ff563edc8bb1c4fb9aaa99a753f824d5bc94f2af8682dc54",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 38,
+        "cell_id": "45e3c1ad",
+        "output_block": 3,
+        "output_type": "stream",
+        "original_output_sha256": "eb4cff10e9e2d8bcca0b7d2a34c546a769eb1845e60dc900ac6591b288d84216",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 42,
+        "cell_id": "a8b7a0be",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "4515abeae06239b0f94f6dc2856ba20fd5bf1f00b0be625a97183d5999870435",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 42,
+        "cell_id": "a8b7a0be",
+        "output_block": 2,
+        "output_type": "display_data",
+        "original_output_sha256": "8918e918376a9ee25abb2f55d1ea60e329af9b1490d8e55aae047a5105046e50",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 42,
+        "cell_id": "a8b7a0be",
+        "output_block": 3,
+        "output_type": "stream",
+        "original_output_sha256": "fb96c9f3ab42d447dfa20d0d8c23fd0326914f64347ff86437d924b1883eef31",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 42,
+        "cell_id": "a8b7a0be",
+        "output_block": 4,
+        "output_type": "display_data",
+        "original_output_sha256": "e665a25ad793720ea97da668b863938dbaedb6f5af0ee91bc4b44554fc5af438",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 42,
+        "cell_id": "a8b7a0be",
+        "output_block": 5,
+        "output_type": "stream",
+        "original_output_sha256": "c4bf9af4ccfd370cb5252b2a33499061325d8508870059076e4783fa40aa84d8",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      }
+    ],
+    "all_other_fields_unchanged": true
+  },
+  {
+    "notebook": "EMCRAG_Prepare_Inputs_196.ipynb",
+    "cells": 6,
+    "code_cells": 3,
+    "original_notebook_sha256": "378125f2514086ee12dad1d5ec36fd525500a63504f3194b3e0db2f1810a1542",
+    "release_notebook_sha256": "378125f2514086ee12dad1d5ec36fd525500a63504f3194b3e0db2f1810a1542",
+    "cell_order_unchanged": true,
+    "metadata_unchanged": true,
+    "modified_code_cells": [],
+    "removed_output_blocks": [],
+    "all_other_fields_unchanged": true
+  },
+  {
+    "notebook": "EMCRAG_FT_v.07.01_DataPrep_Pilot.ipynb",
+    "cells": 35,
+    "code_cells": 27,
+    "original_notebook_sha256": "db48c0fd7d0719eeb783217bf1ffb81e9486e21ea05554607a070729c9c746dc",
+    "release_notebook_sha256": "e94a816f7b5dc2f574f2bcb2757ac063fde1c1be596b1c6f02cff2aad8a33947",
+    "cell_order_unchanged": true,
+    "metadata_unchanged": true,
+    "modified_code_cells": [],
+    "removed_output_blocks": [
+      {
+        "cell": 8,
+        "cell_id": "b62fb6a0",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "893f8fa4777a05767d28aeb35ba90e596e013f8760cb52aeced00fc73e82c639",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 8,
+        "cell_id": "b62fb6a0",
+        "output_block": 2,
+        "output_type": "display_data",
+        "original_output_sha256": "ebc6cf3688943a258fcbef5daf7cfe5d33def1380fba5366d6a0e1ce1d236af9",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 32,
+        "cell_id": "2f111d02",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "dcddb35fd7c9ef92921ac5d9863ec904bea27024919315c7ce3b827e1041a495",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 32,
+        "cell_id": "2f111d02",
+        "output_block": 2,
+        "output_type": "stream",
+        "original_output_sha256": "48e8295594d2818db958e02e5c89bcf370eb9dfc66c6485ea6f6655757d8ae60",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 32,
+        "cell_id": "2f111d02",
+        "output_block": 3,
+        "output_type": "stream",
+        "original_output_sha256": "4902555f81b2dbf2a52c4b4b77f6ea714c1b751a0f14dfc6fbf403624ee79a4d",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 32,
+        "cell_id": "2f111d02",
+        "output_block": 4,
+        "output_type": "display_data",
+        "original_output_sha256": "ca30c4599941ebbbc5941df418a0034ef2eda14eb875b4b405ee2b68a02623d5",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 32,
+        "cell_id": "2f111d02",
+        "output_block": 5,
+        "output_type": "stream",
+        "original_output_sha256": "2c86e67e87e2d00eccaa3f9e408e9e432eca65b4b60e454646d4f4f941b218f1",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "a4b691f2b7f2a7f97c6f93168491b830bf45b599c984cc9e38acabd1a066c495",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 2,
+        "output_type": "display_data",
+        "original_output_sha256": "eba0d789e011930fd60720f9566bd7160ab5b8e3255344802ed13be5a39e3868",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 3,
+        "output_type": "stream",
+        "original_output_sha256": "f7a55f9ad0ae821219c96af32519e5c987dba297c49dc36f6e04977d82f84407",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 4,
+        "output_type": "display_data",
+        "original_output_sha256": "4a247b59daf3d74683dccef4bd065ad28109c36f24ff371f68cf9b27eab330cf",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 5,
+        "output_type": "stream",
+        "original_output_sha256": "20396e7bbba09f6e515d54bffd2d60d66ecfcb7ba87f7ce39aa7f22b2b215f12",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 6,
+        "output_type": "display_data",
+        "original_output_sha256": "642d5632ca8ab80db1cbd23a4bc4e596ee121a4f12e093bf5565f2e1d770fb10",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 7,
+        "output_type": "stream",
+        "original_output_sha256": "bc0b76e891c714e79d28a181db1b3498fb8c0e90276f096a5df7623537c06a52",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 8,
+        "output_type": "display_data",
+        "original_output_sha256": "edf35727f665e087bbcd9992cdb0850970314e48a534b632c27d40dd157e6bfb",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 9,
+        "output_type": "stream",
+        "original_output_sha256": "ce3f664f082e458eb6e1b25f331364fae031d1e7336f6d76cef2b9f3a6e002af",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 10,
+        "output_type": "display_data",
+        "original_output_sha256": "da70e55e2a0cab047afca84c13e91ab39b0f424115c919b09ed447f28bb24e8a",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 11,
+        "output_type": "stream",
+        "original_output_sha256": "c956dc9f58db7af74736269079bd7523a66afe37b259f03891b6741502082e72",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 12,
+        "output_type": "display_data",
+        "original_output_sha256": "f214f62b3ab782544ad14cae48ef6dc402987e7f80c4123791e867c5fb787fe5",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 13,
+        "output_type": "stream",
+        "original_output_sha256": "1715ddfc972d0617fe8664aa82a740270d9d03851b186314589eb6b6dd585d72",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 14,
+        "output_type": "display_data",
+        "original_output_sha256": "ef24b684e9a13feb82ebcac53cd1d1e430ab0c09a7edbef239753bf8c513cc10",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 15,
+        "output_type": "stream",
+        "original_output_sha256": "bdcc8e374a8376a9d844ab97bcdbdde083c3809ccd8e3f5fd2eb6fc648ce56cb",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 16,
+        "output_type": "display_data",
+        "original_output_sha256": "22756d37845448bb0f060635264a383d38de497ca34317e90ae85de2092d3bdf",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 17,
+        "output_type": "stream",
+        "original_output_sha256": "d8b6d96290a03c74d68e4a0fd23fd4a8e92f3743eb0de9ee0e9909def4d883d3",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 18,
+        "output_type": "display_data",
+        "original_output_sha256": "57b72bc470989f883f569190e73ff0fdddf6141fc9fb861cd57ba52b3eaa3fdc",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 19,
+        "output_type": "stream",
+        "original_output_sha256": "5f6f84f86228771a4cf7e131f51ad92b54c84a92796fae4760d4ad0b8dc15fc1",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 20,
+        "output_type": "display_data",
+        "original_output_sha256": "1cb6f818a02e50a163ef5a05bdec01a6417a949a528d42cad8714d07621419fb",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 21,
+        "output_type": "stream",
+        "original_output_sha256": "4abdac0fb0f778cacc9a235d7e55bd527026a18a57af73a4236179569af21cac",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 22,
+        "output_type": "display_data",
+        "original_output_sha256": "0b818b830d2120e052bb78fd45bb5af79989c3b54a1c8232e418e2d0a53fe52d",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 23,
+        "output_type": "stream",
+        "original_output_sha256": "f1d9b446fd0c3585f887ff1feea7a7b247ed367761cb639c8df3c00f3199cc82",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 24,
+        "output_type": "display_data",
+        "original_output_sha256": "e8b15be00f7020acea0a9090030eead022698ba8b88ab604b9221fe77981fa0b",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 25,
+        "output_type": "stream",
+        "original_output_sha256": "1d833ced01b0cce81cc921a0f6f569f9b9b1cbbea2f7a836810a68406fb64fa1",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 26,
+        "output_type": "display_data",
+        "original_output_sha256": "840a693d9d2955c967b2ff95ef62bff2778809864c394ff8b4f198a54213fb9f",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 27,
+        "output_type": "stream",
+        "original_output_sha256": "ebf1029deeb5bd90591d418381a52790c1f22645538a85ea15215f22d04e5d7d",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 28,
+        "output_type": "display_data",
+        "original_output_sha256": "32a5ad232744bddbcf083666303cc3edb98506f67eeb98120e52b53d6d4a0833",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 29,
+        "output_type": "stream",
+        "original_output_sha256": "9986e939d6dbcf76c51c106f61bab9340a218660a76e7a3b39780a6f9a7b44fd",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 30,
+        "output_type": "display_data",
+        "original_output_sha256": "8efc58d96194a0bfdab001106ebccd4460901d449a173126471a9d96c66015c3",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 31,
+        "output_type": "stream",
+        "original_output_sha256": "787cc3c7ebc69c3a975bd7a3af5fc592d528d8d0b1531d0c657dde75f107f7ab",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 32,
+        "output_type": "display_data",
+        "original_output_sha256": "42b7bfcbc3905f91c7e6d6f6e2aff0f876561e3cbdb8fd9d95b66e32038afadc",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 33,
+        "output_type": "stream",
+        "original_output_sha256": "5807103b8d7db70f436d338870e0eb107e94758aaf7d286d5deda64fb1cb4224",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 34,
+        "output_type": "display_data",
+        "original_output_sha256": "05026f938249b4814297ca03640a7849a7a1f0e0a0b2b0c68f72d326dafec347",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 35,
+        "output_type": "stream",
+        "original_output_sha256": "8b3ac155b574ed787156bc3f44e64ab39bab6ff07ca0c0ec726b20c0d7e232d2",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 36,
+        "output_type": "display_data",
+        "original_output_sha256": "80c26dd49dc6e55dca7735e45651573bf131cc30fbf3bc9cb8e754872a606af6",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 37,
+        "output_type": "stream",
+        "original_output_sha256": "04e91fe48672d395cc4cd3fb9291a747d7a13317d4a65a201093bb715267be6a",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 38,
+        "output_type": "display_data",
+        "original_output_sha256": "9d7f4164347469d66b2d6d3c802dc7a19a6eb830093d79196a6f76030e22d795",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 39,
+        "output_type": "stream",
+        "original_output_sha256": "fdd8edacfb3d72ce122b23ee99df0b83474519bbfb38a38c9f7bd03ef60183eb",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 40,
+        "output_type": "display_data",
+        "original_output_sha256": "f30e305bfb7604630aab09dc597b745693b92db33411964db275cc325f1d3382",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 41,
+        "output_type": "stream",
+        "original_output_sha256": "f92c9297be4ae54bb9f1cb9f2209d43b1a13243ed20c4743f630d67f18cd1a40",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 42,
+        "output_type": "display_data",
+        "original_output_sha256": "7d20a9be5904a9554c4c7df4f23b2e5761f84c3806d63e584324908c8c0366a6",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 43,
+        "output_type": "stream",
+        "original_output_sha256": "57ecf270d1c3d25ff23ed7bef19e11b1e55083722d49734cead17c24952071ca",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 44,
+        "output_type": "display_data",
+        "original_output_sha256": "364c143f03d56133a1189df9a3f26d9ca311a044909bfb56ff2f88a6dd594cab",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 45,
+        "output_type": "stream",
+        "original_output_sha256": "49cf086e4fe923d0e4f0858883e6d3bd7b80b6dcfbe75d77a4f4c615578c9325",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 46,
+        "output_type": "display_data",
+        "original_output_sha256": "6f4060b3cce960b3b83734351dd9fcc3eeadab748ad72d5639ed9e99aa06ff73",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 47,
+        "output_type": "stream",
+        "original_output_sha256": "0e37b21d87f215706836dd934fe567e7c636ef472958742d742d6e61267d00e7",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 48,
+        "output_type": "display_data",
+        "original_output_sha256": "e3a12b42cf481d234de4ec09f33723b215f329a57097c916f4198cfd5114330e",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 49,
+        "output_type": "stream",
+        "original_output_sha256": "6270650fb6a8e80cf6fc427954dbf9833eeebdd543de56253e339e172de607e3",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 50,
+        "output_type": "display_data",
+        "original_output_sha256": "1f94f9776ec87ff4ef7f020241293cdb20fdb8084d9f461f0dbcbd7d020d528d",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 51,
+        "output_type": "stream",
+        "original_output_sha256": "1dda2d5158dfce2c0109fd70781f564a70e5f3c5211d7864574c31c7880d64da",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 52,
+        "output_type": "display_data",
+        "original_output_sha256": "b8c22643abc781c2cc00bf6df696096214bdce895d1342f3e948ffd7d74ca847",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 53,
+        "output_type": "stream",
+        "original_output_sha256": "9a08544a36f3e8d8ef61b21d2a029e3e48cceddb62a0f0e74177412cbafcfac4",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 54,
+        "output_type": "display_data",
+        "original_output_sha256": "b8967ef10bed6bcd4f424f9c6bbdbbcf8c1e66f7e0613c4202b68463bb82b37f",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 55,
+        "output_type": "stream",
+        "original_output_sha256": "3be867ddfc7aef0fe423e342f4bf6ba4e48b6fa835a9f47e4253c0d6de18f926",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 56,
+        "output_type": "display_data",
+        "original_output_sha256": "23c6df275fed92404db19697993fe2629bc40efd5ecf77af00de34b469c86a48",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 57,
+        "output_type": "stream",
+        "original_output_sha256": "4073bd885cfafff03cd0c13ed490e23b22e568f956d27b9ff49abda16f92b5f8",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 58,
+        "output_type": "display_data",
+        "original_output_sha256": "149ab626d20c95fccdf60b05e4e3640fafa64f11fc3e1ccc23b52f9004fb9cc3",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 59,
+        "output_type": "stream",
+        "original_output_sha256": "6b4c36bac041fdba0931de5c369510d9e73a1e8524d863cdbf9e10b0f3772bcc",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 60,
+        "output_type": "display_data",
+        "original_output_sha256": "cb61fe30ee1ed0d10a810c0cc7c314157ea168a80a6ba1249a7e99657430fac9",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 61,
+        "output_type": "stream",
+        "original_output_sha256": "bb69068b05b73de350e4cd728a3b066e1e1860a8d01f081df18e78a214676a06",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 62,
+        "output_type": "display_data",
+        "original_output_sha256": "3efe116e76d510e2c8f089768ee182becce0b9a95eefad6ebdd881dc1a2759ad",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 63,
+        "output_type": "stream",
+        "original_output_sha256": "007abdaf8b9f6229e062299aec2367ecbd1b0bcf04f4caa41596eda8d14d4aa3",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 64,
+        "output_type": "display_data",
+        "original_output_sha256": "a5de3aa308cd8bb6052c462210eea7caa595c672ac3fb457669781f1e075fa15",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 65,
+        "output_type": "stream",
+        "original_output_sha256": "e5c470eb88c33a47c6b2ec92dd5ba61135129ab5715b6317419d8be9fb3ac8cb",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 66,
+        "output_type": "display_data",
+        "original_output_sha256": "27b79a02483e2394757ae864f7283f03e3f0f07a608d48aeb571c3cc8edcd4de",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 67,
+        "output_type": "stream",
+        "original_output_sha256": "83a57b5442e19739a9e6455af1b798cb42f17798edb77b91762ee1639da4d0fc",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 68,
+        "output_type": "display_data",
+        "original_output_sha256": "5c500d6a79799aa5f481f262e038b6b8f5f74664473f0e2fe256c8c17da6773f",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 69,
+        "output_type": "stream",
+        "original_output_sha256": "1410f05263272593e21b829dac28b6516ca743abd88613de1799dcb3705cbe13",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 70,
+        "output_type": "display_data",
+        "original_output_sha256": "2853569b93d7b6fa771b22f7d461d2ab3565612248476bcdcf730d3790235c8f",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 71,
+        "output_type": "stream",
+        "original_output_sha256": "0f9fbe57f40ac77cb8b0fa88b65dd8203f662de5065814e441dde236b4c1da75",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 72,
+        "output_type": "display_data",
+        "original_output_sha256": "e75c72606230f84dedf6b2e4bfa3b1d36a26b1039be21fa0c13be06187ab29bf",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 73,
+        "output_type": "stream",
+        "original_output_sha256": "0d7121644fcbf9420f1d2fe4c75068d6de6e4a43c3e0bcb240600d3555c3bd70",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 74,
+        "output_type": "display_data",
+        "original_output_sha256": "82f37eb7d97b4d26ad358ff0a9c96bb8559942dc9070de5e05497a97ffe1335b",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 75,
+        "output_type": "stream",
+        "original_output_sha256": "5e2a340f49a4112c9d6b5dd4a8b6abc8362a0ef8b553be3491e1382b0d44b378",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 76,
+        "output_type": "display_data",
+        "original_output_sha256": "0420d415d3fe349533701022021e34ca0edd332a75b1c7e2ba28c199c7af1a66",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 77,
+        "output_type": "stream",
+        "original_output_sha256": "eac894732da3213f46faff05e2220b1121559e8e9610a4655824b61818b085f3",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 78,
+        "output_type": "display_data",
+        "original_output_sha256": "452e7454cf26a79beaff01c452d321505dccbc79c4ab366b045a9173e0e1f643",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 79,
+        "output_type": "stream",
+        "original_output_sha256": "baeee60265fa5f98a5aa2e009f6a9be19cafbe2d018cf41fbdedcdb0c9675367",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 80,
+        "output_type": "display_data",
+        "original_output_sha256": "38a5cbc8ac24ea33acb6f211b129cc15ccb913dd0e90406df7464cd845a9cf0d",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 81,
+        "output_type": "stream",
+        "original_output_sha256": "ad81a2656bf4ad63d345a2d97d694ff7d74a6ae2ad85abf33e2e3f918c5404b2",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 82,
+        "output_type": "display_data",
+        "original_output_sha256": "e28ae6085ebe67369c442f483acf359fec5a3d473887e2a62d526ba86c862b89",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 83,
+        "output_type": "stream",
+        "original_output_sha256": "5fedd520407f32d71653c7b4fbaf779c51d399ae9e56887edbe2fbec60df5e3d",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 84,
+        "output_type": "display_data",
+        "original_output_sha256": "9e3eda876ff6156cb3a590ffcef5fb91103aab0afa80f483cb58926b752d6ed4",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 85,
+        "output_type": "stream",
+        "original_output_sha256": "36904e8d7b1d0981c9e2332e9131804b21eef37c7f459a18fde2c8cfc3e94d05",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 86,
+        "output_type": "display_data",
+        "original_output_sha256": "f7f9412b377f1afc4f7c308299c006bc96e7ad1a7111c7d924288adf86435668",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 87,
+        "output_type": "stream",
+        "original_output_sha256": "d1116d62a8f8e6efa121e04b193b13c98b75b10868a401915452edb1b7d5a22c",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 88,
+        "output_type": "display_data",
+        "original_output_sha256": "ba15a856723e35b03094d2a625e2c35ca68d8231a40dd61589d63c305a34f8ca",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 89,
+        "output_type": "stream",
+        "original_output_sha256": "1bfe62dc61a8cfdab9391cc1cc5768d5ce4745f0d1608ce30a489678f71d5b01",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 90,
+        "output_type": "display_data",
+        "original_output_sha256": "21a2b356f52bbdcd9086d777805c773bd025862e3927344510fdd84977753e1c",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 91,
+        "output_type": "stream",
+        "original_output_sha256": "351b83623bd4483d1c8f68d8bb00824a54412974f1f7565b2d15d12ce7ac862d",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 92,
+        "output_type": "display_data",
+        "original_output_sha256": "0d7ee9e4b3c5ff18ffcedb4efb67e752dc47a783880d2435cfd0bbce359ebc44",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 93,
+        "output_type": "stream",
+        "original_output_sha256": "095c0a2b44b2a28b18dc3209f95b7aab539e4cd4cb455a9cb175a88669b33b42",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 94,
+        "output_type": "display_data",
+        "original_output_sha256": "ca854857ff6b6635a463e9e00df704f7a2918bc03e17ffd4cbd228290183464d",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 95,
+        "output_type": "stream",
+        "original_output_sha256": "a70920725664c998f3a759beed2e5e94748a46168fd4ec1884426319580814d9",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 96,
+        "output_type": "display_data",
+        "original_output_sha256": "95a07663d2fc3aaa3d9c85c8ed9df3b95a397fe1b540b4e45a66f7130cd8657f",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 97,
+        "output_type": "stream",
+        "original_output_sha256": "d134832592132a17f2dabf2cf94751d22e26b998446e994c9e3950cb84686b69",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 98,
+        "output_type": "display_data",
+        "original_output_sha256": "01901e6350c636e493b76d36d4abc13512f816dcccbf3d90c4571dc91c5d1aee",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 99,
+        "output_type": "stream",
+        "original_output_sha256": "3f4e1839100b0871d34e2ac472c8a709efca165a573785bbed5657a7b205375b",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 100,
+        "output_type": "display_data",
+        "original_output_sha256": "fe7a9792013c19bddbc038a9485936c894ac4e6866711a252b4b9eb007f40907",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 101,
+        "output_type": "stream",
+        "original_output_sha256": "fa1b26e0904af51ede2921c8ce8be0318d9d789fb6c1014a66a78ce6738736cd",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 102,
+        "output_type": "display_data",
+        "original_output_sha256": "4d1e80f2f246bd841d14bab3780fd61b224e8a1555acc02f000e41a4a1c17eaa",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 103,
+        "output_type": "stream",
+        "original_output_sha256": "7cdb9422bdbaa8678e2aac14f2048529d35766805bcd801b3712c13e988435c7",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 104,
+        "output_type": "display_data",
+        "original_output_sha256": "c8b1db39fbabbbe6b289fc9788e6d9f5426fad9203da575c8c96f35a1df22e91",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 105,
+        "output_type": "stream",
+        "original_output_sha256": "c3962e2a062604f47161dac46a8da3b9d952e961bcaef4c9dac545d725f23636",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 106,
+        "output_type": "display_data",
+        "original_output_sha256": "71b25d9328247cd89f609034b2c2cd71c8a5adfea70807f408b86456852834b1",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 107,
+        "output_type": "stream",
+        "original_output_sha256": "2ccf4ef3265b464ad708f4477ee77bb71fd605728a3bf459ef6a3c767383712a",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 108,
+        "output_type": "display_data",
+        "original_output_sha256": "b56cf0d63de776be5c9be98369cbda334cf845537a5424781411053a15c37425",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 109,
+        "output_type": "stream",
+        "original_output_sha256": "b217372f35899821440071094dd01571af560a20d933d2155c716c77d700a730",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 110,
+        "output_type": "display_data",
+        "original_output_sha256": "c188c0e556ac2d4aabca251843658c183077b1f9ca32b982af9399d6446fe29f",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 111,
+        "output_type": "stream",
+        "original_output_sha256": "bd66cd6149f2625432484dab74bce78740ed3ec7d8d626c63acbffd2dc9a2fd2",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 112,
+        "output_type": "display_data",
+        "original_output_sha256": "c669c4bbb2fff6de88cb20e2b0fe76bd0a0fbfb6ac4ca855f4690ca7337ea7e7",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 113,
+        "output_type": "stream",
+        "original_output_sha256": "72a38c385ca22ec37dd3562aac7c15dadb2fc9bf0cf2c085f4bfb93260579bbe",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 114,
+        "output_type": "display_data",
+        "original_output_sha256": "7bdd5f9492ce8a3c20c12ed84300c50fd28171161ddf787c5370e24efa66ea9f",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 115,
+        "output_type": "stream",
+        "original_output_sha256": "635aca416a45b559348065b54b50788ef4565daf1c6e4890e6e4e8504fd4cc86",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 116,
+        "output_type": "display_data",
+        "original_output_sha256": "2f9b38f921269fd8f29ca6d6c5d55417d53c8eba84d609e3c3b82355d156c416",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 117,
+        "output_type": "stream",
+        "original_output_sha256": "ab2220827d9fcc143b41751919a02f792afd707a9c75325492d0a0f0ba2df58b",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 118,
+        "output_type": "display_data",
+        "original_output_sha256": "575527a326a1edb47a6871dfeba631fa0be4a7d79676b9d86532989175a67cbc",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 119,
+        "output_type": "stream",
+        "original_output_sha256": "5ec82d8ea83c6357eefb08cdfc5573768d206227dfd2b2d21c301d61ce652800",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 120,
+        "output_type": "display_data",
+        "original_output_sha256": "bcd6c09a90b79f8c5da84fb040f59aa21ea844551b9fcff6c3f15982e81fc658",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 121,
+        "output_type": "stream",
+        "original_output_sha256": "40abfed08a781648ae9593640aee061f9ce8e2c43eca8c5f3a0bbee9bb7fb1be",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 122,
+        "output_type": "display_data",
+        "original_output_sha256": "72f5ba3d67449e6655e9e7cb5dae5c1e0339abf88bf9cea069a5e31643601c5d",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 123,
+        "output_type": "stream",
+        "original_output_sha256": "11627ff7022fc5b24dae84a36f87301854fdd48215c94ab5b8c406485a19dd8b",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 124,
+        "output_type": "display_data",
+        "original_output_sha256": "2f45822b795b0b7786703977d90fb3d5fba6dc74c7841d75a19ef5ab8100a63b",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 125,
+        "output_type": "stream",
+        "original_output_sha256": "3b7af122eecb793f007bf4c9fcb0a5c8b08071154426d1abd7438783f92a3391",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 126,
+        "output_type": "display_data",
+        "original_output_sha256": "5741fe985bcb95921c608f7b9f0f541dcab4d8aa15800454f3469d6e9c16aec5",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 127,
+        "output_type": "stream",
+        "original_output_sha256": "b742554d832c25d563771aacc32b4f55d5d756734a51e6b6b736c3b7446bd684",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 128,
+        "output_type": "display_data",
+        "original_output_sha256": "7d5da067d60c59a1a262cf37871684082539b39700c3ca1757cd2c879470ff88",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 129,
+        "output_type": "stream",
+        "original_output_sha256": "c177bd0cd2e73bc999d1b12f54332830b96735539a668e65a1f2c61cdcbc6908",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 130,
+        "output_type": "display_data",
+        "original_output_sha256": "8bdf63e74f31cb5da5baab07ba020b115eef4aaecaa20eed27dde69f0addf7e3",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 131,
+        "output_type": "stream",
+        "original_output_sha256": "8084f9b4de390f2adb6fe6d583e6f5896029b396ded029fe6b9b84aaa1afa38c",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 132,
+        "output_type": "display_data",
+        "original_output_sha256": "3ebde9eb25901ff112f72c6b754a219c0b8fa269f496cc9f70e7b56adbe600c5",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 133,
+        "output_type": "stream",
+        "original_output_sha256": "cc4b1bec907db4064be8ba1d52ad1012c4f51f21172dc9924eebb6c9bec51dd1",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 134,
+        "output_type": "display_data",
+        "original_output_sha256": "e828678fb03ed1f952e24f36abdde24928dd94059efcab14309f00bc05ed818f",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 135,
+        "output_type": "stream",
+        "original_output_sha256": "7b6b476437fd02742276d90100a5082d818df8d06c68752401e83dd0c5bf1a5d",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 136,
+        "output_type": "display_data",
+        "original_output_sha256": "6f1352bb5ffe665ef0b4b1106669266a855c892183ed3df0f43702b177044d87",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 137,
+        "output_type": "stream",
+        "original_output_sha256": "584284847ff225e075136ed0590e93736e7402fd88497b9b729b41015cd39a02",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 138,
+        "output_type": "display_data",
+        "original_output_sha256": "cf81aa2d8ec52c1ab800029118a215687b7cfb543240243d3c36df831075dfca",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 139,
+        "output_type": "stream",
+        "original_output_sha256": "6c8e6429e557d93658a1f3f5b8bc1aafb231a22c2fd92d573992d970e7f52866",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 140,
+        "output_type": "display_data",
+        "original_output_sha256": "848fbc57e79640a64bd3cd49eaaaeab24635ccf3ec08a5b316018ef83422a507",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 141,
+        "output_type": "stream",
+        "original_output_sha256": "b780b8bc80840e6d8fe3f8e08f896f6abf8e9f66f6dbb1e15ed3cb06bc5910df",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 142,
+        "output_type": "display_data",
+        "original_output_sha256": "5af352d40b90cd04151b90681bcc91f234f50207ccd4b17626c88ef327190bc1",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 143,
+        "output_type": "stream",
+        "original_output_sha256": "f218251c1974cdd2b7a45943956629b17f81463ef61e5d02256040686122fb9a",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 144,
+        "output_type": "display_data",
+        "original_output_sha256": "97a830ceeead680fd6fabf2d442c7c48b4bcb6d364e34a3a4a004e487247c5e0",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 145,
+        "output_type": "stream",
+        "original_output_sha256": "b97237667d8f23c8a0d6fe99903b1ca884854f3a77bafcd81c7e73ea902af3a2",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 146,
+        "output_type": "display_data",
+        "original_output_sha256": "44af879409a1bca97eb989a9c5ee25366d4bd901ee92cc75ec12d4a9ce4a1f43",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 147,
+        "output_type": "stream",
+        "original_output_sha256": "3b9b02d735d39ba93ec03928e1236a71104f831a96d6fc58107f2e5416787f1f",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 148,
+        "output_type": "display_data",
+        "original_output_sha256": "f9d274ede0792760c3c480d8641515c755605ddd4b01d1b3a58400f909eb5108",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 149,
+        "output_type": "stream",
+        "original_output_sha256": "fe8565d1a60437ea6c294cd356fecce8e9ffb65ca52e7124d62e207646279f9b",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 150,
+        "output_type": "display_data",
+        "original_output_sha256": "132dc22df8cd24c9c67b7a8124b2e43aba0f553306fdebb18d9138b170eaa9a9",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 151,
+        "output_type": "stream",
+        "original_output_sha256": "740c246f3f326458b21d4b489c9619ba232e863909716d8ea44b15b739c75324",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 152,
+        "output_type": "display_data",
+        "original_output_sha256": "95702475f2427d93ce264da036a8e4dc763be7b9d853261d2e03e40ed20ae018",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 153,
+        "output_type": "stream",
+        "original_output_sha256": "7d0691a59cf1c46c24e9ff4d2ab37a0fbcc37bf09416dbf16aa0647c26dab673",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 154,
+        "output_type": "display_data",
+        "original_output_sha256": "9cb192599b5752f50d34eebf7ac4bdc71ea31fb1cecd237a0ad9da93716e1c60",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 155,
+        "output_type": "stream",
+        "original_output_sha256": "ac52a623cf08c3954a5decfa456fb6a151e820a194321a7e9c4f6b223ba3c6ef",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 156,
+        "output_type": "display_data",
+        "original_output_sha256": "12c473d193aaca23a2ec9eb42cdac39a8f94dcb0bb7bf392dcf07470b0aa9966",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 157,
+        "output_type": "stream",
+        "original_output_sha256": "d57bf8420f7d40dd4cd63730d3d53eda945a8de5bb56f43e4b0869e0d2233b75",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 158,
+        "output_type": "display_data",
+        "original_output_sha256": "3ce2d44bb39ce6446f93ea48139845937a11392c484b45ce524a5a69b29e2483",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 159,
+        "output_type": "stream",
+        "original_output_sha256": "26c3b9ffbc3c8b6880ea0fa58f4fa3b87413d88e042d03b0a6f085e3c69968e5",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 160,
+        "output_type": "display_data",
+        "original_output_sha256": "b06a5224c0df9526356f8bd3df3c9de1cc81b9b6d1616cde936dba0de155f138",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 161,
+        "output_type": "stream",
+        "original_output_sha256": "eda375f5b08829c65acb34c435a1bbf188a34d20817a3ed9806dce8f111e347c",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 162,
+        "output_type": "display_data",
+        "original_output_sha256": "76ec369f55e1cc476b7635d8b0bae3a98dd48f9f2f28a488e30ced2ca6ce0bc0",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 163,
+        "output_type": "stream",
+        "original_output_sha256": "bab18af9397e6bb3266b5820cc6e36f100132013393c26c4d828159179af676a",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 164,
+        "output_type": "display_data",
+        "original_output_sha256": "f556b3d6cf80890c4cd50525cbfada4f54b3de92ad4457b41f619362e8cbedd8",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 165,
+        "output_type": "stream",
+        "original_output_sha256": "a01dea821667d4164e539b70519bdccc64051ca51406ea75a13053f1bc2e37d3",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 166,
+        "output_type": "display_data",
+        "original_output_sha256": "b570500d62e2c917028f5dad67f27f9362f8d5f1eaa291dd640aa31afc225757",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 167,
+        "output_type": "stream",
+        "original_output_sha256": "bd7fe107131afda4093c32ade00f1d525cabfece6a854d6215b3443baeb144d7",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 168,
+        "output_type": "display_data",
+        "original_output_sha256": "cf1e51a35d6c0f3784514731bf1ea0edc84bbe2cecfec267faceb221c13185db",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 169,
+        "output_type": "stream",
+        "original_output_sha256": "ab8b40f6ebdda554b7b5aaef08d770f67aa5b9df190c0149ee4642491a41c348",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 170,
+        "output_type": "display_data",
+        "original_output_sha256": "0bb58ecb04c68ae735807439b3ed58dec11b2fa6290f037d83f8b0650d7fd6f2",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 171,
+        "output_type": "stream",
+        "original_output_sha256": "4e650dd2b508af1aceebc0edba06cc3730fa20751ea0b201ff6c1281ff1e7c20",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 172,
+        "output_type": "display_data",
+        "original_output_sha256": "2f705b7a2033ca811a4abbc28803a84b48ab8bacc033a02e19e93e26659184ab",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 173,
+        "output_type": "stream",
+        "original_output_sha256": "239c3d4fb9548811b203f04732eddf8d977061c111efe4fc52d87786ec834b56",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 174,
+        "output_type": "display_data",
+        "original_output_sha256": "f5097e7a342bc59896d068dacd9e3ccf7df96a80b980010b8530a66b49321be4",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 175,
+        "output_type": "stream",
+        "original_output_sha256": "6656f6c57d5c9267e0681b1c85d1f949752e1bd5dc4dc411aa9d7d57d968a5fd",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 176,
+        "output_type": "display_data",
+        "original_output_sha256": "e611465446207931819281ee30dd5c43c042d6cc5da661a3af13d87790d29a37",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 177,
+        "output_type": "stream",
+        "original_output_sha256": "72bd897e1b8dcebe63dbef062fae2cf426acc90f410d9059c25ad90e0f4a2bcc",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 178,
+        "output_type": "display_data",
+        "original_output_sha256": "6b925bde42dd000d38077461993ca8490912f9c3920e30b8ac963ba7d1b0997d",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 179,
+        "output_type": "stream",
+        "original_output_sha256": "8ec6a64cacbaa5a0bf791f9aa5bad12211b04657c2d181d2a4203bd0d1075dc0",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 180,
+        "output_type": "display_data",
+        "original_output_sha256": "fdbcb545776ba122d0d7e79bade6a17fe1248ace22f5022dbe2781d4a1dcea60",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 181,
+        "output_type": "stream",
+        "original_output_sha256": "9e19a40581d52a266f977f3bb3d038345fe33443da6aaeddfbfd3977bce64603",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 182,
+        "output_type": "display_data",
+        "original_output_sha256": "a228fa012013613e7d951b53a45e22bd415badccb18d547a1e2e9b90b56a88fb",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 183,
+        "output_type": "stream",
+        "original_output_sha256": "a9f4b5e428536af3683fda2820cadb061b847382d43893de4584cbae7c70638f",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 184,
+        "output_type": "display_data",
+        "original_output_sha256": "4b1c93fbc7616ac0e0a75648694825ec01b651264244dc8a7511912005ef3349",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 185,
+        "output_type": "stream",
+        "original_output_sha256": "046f68811405d86c29d1a343a725ebb62d53dce15dc124a30426d435a58ee42f",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 186,
+        "output_type": "display_data",
+        "original_output_sha256": "66776db0d453bb8ac6b7fd64a002b6f0d3a2dae3ca3775805975f433fd1edeeb",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 187,
+        "output_type": "stream",
+        "original_output_sha256": "f83afee521578644b547c18f6add2b50ef8398c45c48d8821f4843162294c572",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 188,
+        "output_type": "display_data",
+        "original_output_sha256": "e0426916603c085fe8e47d31b6e05fb0ad02838d0fc13fe980cd1a9d8624c1ff",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 189,
+        "output_type": "stream",
+        "original_output_sha256": "20842f26244e3765bfaaddd4713c63a0bfb72612cd571cc9ae10a8451c400cb6",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 190,
+        "output_type": "display_data",
+        "original_output_sha256": "7f76d0a9196ef82b7a5e4b688470ae8eedf5484bea6413693a0e8be8a4353fc7",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 191,
+        "output_type": "stream",
+        "original_output_sha256": "fa02fdaaebce773438e1c9bda609c1f581144fc51fce76c30e1a44e8190c1177",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 192,
+        "output_type": "display_data",
+        "original_output_sha256": "7eb3ff4468dbc541a93cef2cb35a73deadbd3bdeb175cb5a460ad29969cbb515",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 193,
+        "output_type": "stream",
+        "original_output_sha256": "be1dc19ad9496bd2af5d45309d8d47b299e6239118b8c5c0b62d2c8309cbe5e5",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 194,
+        "output_type": "display_data",
+        "original_output_sha256": "dbb6b5c9a0a24574609f9579d205a9b751849396f1bd92fab78d71093332e18f",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 195,
+        "output_type": "stream",
+        "original_output_sha256": "aa6c453238c30d2437ed45426b9888ee5aa7149f4a31ed1346453958c94cfa89",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 196,
+        "output_type": "display_data",
+        "original_output_sha256": "f78b6040e262ca23a9b6197557692eff734cf53d7839919432552275f30e908c",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 197,
+        "output_type": "stream",
+        "original_output_sha256": "ec287c411f1e959307cdc179c61d2d96bc125e77c4c7e519fbd4625836a5339b",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 198,
+        "output_type": "display_data",
+        "original_output_sha256": "8cc54a2c49fb10f0e4e637e1b44930aeaac471d111bdc209f17abe746c586680",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 199,
+        "output_type": "stream",
+        "original_output_sha256": "3ade2b27f8a24dcf4f2fca2e607a33a0adf4cc5771facd6b676512dd959971b2",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 200,
+        "output_type": "display_data",
+        "original_output_sha256": "fc3fe8c38cb26f91cfddf44497d8c3dff60bff73d8d0bfcb7e0b07c1da3f62be",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 201,
+        "output_type": "stream",
+        "original_output_sha256": "350649b8c5abc3d006026de392eed6bf4264df97c58576ad8c238e1db976e788",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 202,
+        "output_type": "display_data",
+        "original_output_sha256": "e6f17d7fbb52ec58e3ff37db16598761ef055ab3483afb6227dbe91eeb5f9fd7",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 203,
+        "output_type": "stream",
+        "original_output_sha256": "257ea3341cef82d02b7f0268e8f49570e07488e2fc30a14ebafa6a63888b0a8f",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 204,
+        "output_type": "display_data",
+        "original_output_sha256": "21ac8ccc74b0808bbb6e7d046de04aec2a000e01fdc9a13f7b63a7a740519e93",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 205,
+        "output_type": "stream",
+        "original_output_sha256": "fc0edfebd580ba2dbd69139b2edd048ba6cd127f6e2ae318773b0944fb478552",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 206,
+        "output_type": "display_data",
+        "original_output_sha256": "bade267e70aef05ec7255a15e7d04a20d940bba03cef70a7c790a6f954156c73",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 207,
+        "output_type": "stream",
+        "original_output_sha256": "7d054ad15dbbbbc2c2b744a2e395f65f5f50af6fe1aa61f3de8bf032145a6044",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 208,
+        "output_type": "display_data",
+        "original_output_sha256": "c7fafd05b36a9630df8eae1b21aa022d659cbf804c22f7eef5a451d3575fb76c",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 209,
+        "output_type": "stream",
+        "original_output_sha256": "d002864657cf0d4e3fbfd8e1a2d21589ebe8c8605848cceed86a03664453c8d2",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 210,
+        "output_type": "display_data",
+        "original_output_sha256": "f7e891cd01b9dc1852a74f3b177a77ba17f30d6a1b249716842c7a4d1ab4fbb0",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 211,
+        "output_type": "stream",
+        "original_output_sha256": "6eb3516c099472727a18b8e352e16c096387168d64b5383dbbd4a4a4164642c3",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 212,
+        "output_type": "display_data",
+        "original_output_sha256": "a1393b323117edd965ad1095e070c75288b7283b118b08d05242c1f7771487a2",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 213,
+        "output_type": "stream",
+        "original_output_sha256": "7a390b17fc6ff0c8cf1dbeec7cad4f69739d2e1d00a395a20da127719a14d38c",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 214,
+        "output_type": "display_data",
+        "original_output_sha256": "ad00e8e8bcef5b04cc41e3a45823091591559ba983c0729ebb831b8165126ec7",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 215,
+        "output_type": "stream",
+        "original_output_sha256": "447a6419385cad013fd4fd192119104dd69863776a302b837cbdef14e4a20591",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 216,
+        "output_type": "display_data",
+        "original_output_sha256": "456e7e0ffee6476a1e0f1794fa86a03096efcd08ab220928489335dd0898b01d",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 217,
+        "output_type": "stream",
+        "original_output_sha256": "e0c77080308f9eb2289b14a080c6ae49e107526ecd1a96885be14c08b1bea018",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 218,
+        "output_type": "display_data",
+        "original_output_sha256": "85bb92a841b0fcde73b0301584c9b9d5c37e2512946d2b630e331cc4a4f6e145",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 219,
+        "output_type": "stream",
+        "original_output_sha256": "6a4e7f59c9340446bc0bba9d8fdba756431acea0722b33f4125d539403b890f5",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 220,
+        "output_type": "display_data",
+        "original_output_sha256": "57a3b03319a848de62401131b5e0850c0c53fca4f2814127cf699486f17c5595",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 221,
+        "output_type": "stream",
+        "original_output_sha256": "d49188da7d3af0a6fbab24442a399ecca447e83938b4605c4ee8e53db131d83a",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 222,
+        "output_type": "display_data",
+        "original_output_sha256": "c96e0d786a0f0c7119862b8cef7fc081712d21d8b52cd3b72ceaf1046f97a3be",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 223,
+        "output_type": "stream",
+        "original_output_sha256": "b7c9331edfe2ee47467a417cda040ee5319aea3e3ac189407088ef95db7218ec",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 224,
+        "output_type": "display_data",
+        "original_output_sha256": "e8f3b17be18dd6bb23884416f032e0aa6c4b0bb4f6c7c21a6d331936f17c9320",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 225,
+        "output_type": "stream",
+        "original_output_sha256": "427b5a9bf7af42a0020a6c41f23c751e312f49c83554bbe66905bef8e3921b61",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 226,
+        "output_type": "display_data",
+        "original_output_sha256": "c139962f80a3cfdf96f6087a0b0984633805963efd052becf57ae670ec1c0daa",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 227,
+        "output_type": "stream",
+        "original_output_sha256": "9119b626d12455238c6b35a0223b2e1f603e876769af59afafcf9644a969a23c",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 228,
+        "output_type": "display_data",
+        "original_output_sha256": "c4c4e7ad21f8941d9dd52d23667373f8e07540f436f5a3f9feb128e445e21b3b",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 229,
+        "output_type": "stream",
+        "original_output_sha256": "a982f87cad348b546b20037b3fa5ae335e42cc7a40c7a4411f72a0e4d8b076f0",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 230,
+        "output_type": "display_data",
+        "original_output_sha256": "531858c69e26e1e17142b4d1f5386fbf21e0f9b6b18c34afe55109b9fd5fcd5c",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 231,
+        "output_type": "stream",
+        "original_output_sha256": "b1faf73e0f7681ff9f76476e919694ef5a16e24bbb37f423964fe8aea3c9a576",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 232,
+        "output_type": "display_data",
+        "original_output_sha256": "f98b3bd96ec3c3d4b8070895e654a111ab41ba83d2aa170dd44c02c086e84733",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 233,
+        "output_type": "stream",
+        "original_output_sha256": "042e8789fc93b06cafe827c51440727d512fe234e2e8164d9309a9e9ae488e18",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 234,
+        "output_type": "display_data",
+        "original_output_sha256": "c97103db4f1d3c7546fb6ca23f53488f193b6f3c223e396324edabbb16b1c79b",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 33,
+        "cell_id": "10c46312",
+        "output_block": 235,
+        "output_type": "stream",
+        "original_output_sha256": "c47d82a4efbe2ad4e1baee0cb0bc6df17f0950b6609a787a96125162c9bd863c",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 34,
+        "cell_id": "fc22a70e",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "c24a16c8d13edaa51aaab7d281987a8307a3b40c0445ad50a1c521c7142a8de7",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      }
+    ],
+    "all_other_fields_unchanged": true
+  },
+  {
+    "notebook": "EMCRAG_M0_M1_Standalone_Benchmark_v07_03.ipynb",
+    "cells": 23,
+    "code_cells": 12,
+    "original_notebook_sha256": "87aee848aeb3104d0be27d7966f1a10aa36aa986317248e7b89bba868ab4fc0d",
+    "release_notebook_sha256": "87aee848aeb3104d0be27d7966f1a10aa36aa986317248e7b89bba868ab4fc0d",
+    "cell_order_unchanged": true,
+    "metadata_unchanged": true,
+    "modified_code_cells": [],
+    "removed_output_blocks": [],
+    "all_other_fields_unchanged": true
+  },
+  {
+    "notebook": "EMCRAG_M0_M1_RAGAS_v07_03.ipynb",
+    "cells": 18,
+    "code_cells": 8,
+    "original_notebook_sha256": "1a85ddc5ebe50b7c200ce14f643bea8e940eb062ace4eb56ecb8141596681d2e",
+    "release_notebook_sha256": "2b6e55847bdc22e6656143ee98997a60902da9de01b1433a755521eecb11b722",
+    "cell_order_unchanged": true,
+    "metadata_unchanged": true,
+    "modified_code_cells": [],
+    "removed_output_blocks": [],
+    "all_other_fields_unchanged": false,
+    "cell_id_updates": [
+      {
+        "cell": 1,
+        "original_id": null,
+        "release_id": "emcrag-ragas-1-b9f4c0b7e81b",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 2,
+        "original_id": null,
+        "release_id": "emcrag-ragas-2-535faa47a37e",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 3,
+        "original_id": null,
+        "release_id": "emcrag-ragas-3-f2c47ca6f6f4",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 4,
+        "original_id": null,
+        "release_id": "emcrag-ragas-4-64dfec049a9f",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 5,
+        "original_id": null,
+        "release_id": "emcrag-ragas-5-3e8873a24910",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 6,
+        "original_id": null,
+        "release_id": "emcrag-ragas-6-9137c2c5ce90",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 8,
+        "original_id": null,
+        "release_id": "emcrag-ragas-8-723496eec9c9",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 9,
+        "original_id": null,
+        "release_id": "emcrag-ragas-9-0a82f4f64a94",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 10,
+        "original_id": null,
+        "release_id": "emcrag-ragas-10-a19cb75c0e67",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 11,
+        "original_id": null,
+        "release_id": "emcrag-ragas-11-2ccc8e88a998",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      },
+      {
+        "cell": 12,
+        "original_id": null,
+        "release_id": "emcrag-ragas-12-e64f5a7e859c",
+        "reason": "Non-executable Jupyter nbformat 4.5 identifier; no source or execution change."
+      }
+    ],
+    "all_fields_except_declared_source_output_and_id_changes_unchanged": true,
+    "root_and_cell_metadata_dictionaries_unchanged": true
+  },
+  {
+    "notebook": "EMCRAG_R1_Benchmark_v07_04.ipynb",
+    "cells": 58,
+    "code_cells": 46,
+    "original_notebook_sha256": "4e637096740534576291ebec655853bac3cbebce3f1eaf1165bf837a7edce546",
+    "release_notebook_sha256": "7425d8826ab7df231c1a8f38aca7838357ccef93b39cde9987e2da29a1302451",
+    "cell_order_unchanged": true,
+    "metadata_unchanged": true,
+    "modified_code_cells": [
+      {
+        "cell": 14,
+        "cell_id": "0cd2a8c2",
+        "original_source_sha256": "d2ddca388b60c4c429d80168766d4c5f53e2ddfd775464f9d99d677fa6676551",
+        "release_source_sha256": "1183f9cad85c95a0e4ee7d90fb422cb97a61fad8bd5ec6d8fdf0fbeecbc9572b",
+        "reason": "Embedded Tavily credential replaced with os.environ[\"TAVILY_API_KEY\"]; existing os import retained."
+      }
+    ],
+    "removed_output_blocks": [
+      {
+        "cell": 12,
+        "cell_id": "329d4f28",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "2c7c2778f437296681edd92370b81b5322936141267fd914b8fc47fb789a6ae9",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 12,
+        "cell_id": "329d4f28",
+        "output_block": 2,
+        "output_type": "stream",
+        "original_output_sha256": "3304609d4a67d3cab8054c0d0c6bfa8dd775175e46164c51a4bec455ac9a1977",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 12,
+        "cell_id": "329d4f28",
+        "output_block": 3,
+        "output_type": "stream",
+        "original_output_sha256": "779c654914082a8f7b97be9478ca80b4ca98031f862a683a81f30efae124f889",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 12,
+        "cell_id": "329d4f28",
+        "output_block": 4,
+        "output_type": "stream",
+        "original_output_sha256": "7f7fbadc4179f172110eb3252d3ba9e0ee732210ecbebd999edeb6e8aeab1f46",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 12,
+        "cell_id": "329d4f28",
+        "output_block": 5,
+        "output_type": "stream",
+        "original_output_sha256": "5d3a7bd894c4d7f3858a3cf427243b689173eda1bb269a497a39fa39ed42ec5d",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 13,
+        "cell_id": "02fcc8a3",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "a325c9c8a7470d63b5d2acbe45d3c7d74e50f3abd37372e801e899708687bf36",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 29,
+        "cell_id": "36a30d77",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "0a7d784f38af962a0ec361da49d68e8e1f9bc656c1bd9eb29ef589ed4602ff97",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 31,
+        "cell_id": "33855219",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "d0e7c87e64e6561e699971c02f21878e57ec770c578a6bf792e163c61e792fb8",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      }
+    ],
+    "all_other_fields_unchanged": true
+  },
+  {
+    "notebook": "EMCRAG_R0_R1_RAGAS_v07_05.ipynb",
+    "cells": 12,
+    "code_cells": 7,
+    "original_notebook_sha256": "036f87b7fe7bf843229324783c3b6601e1c793038158a5b5f2760081180650fd",
+    "release_notebook_sha256": "036f87b7fe7bf843229324783c3b6601e1c793038158a5b5f2760081180650fd",
+    "cell_order_unchanged": true,
+    "metadata_unchanged": true,
+    "modified_code_cells": [],
+    "removed_output_blocks": [],
+    "all_other_fields_unchanged": true
+  },
+  {
+    "notebook": "Chroma_DB/Knowledge_Injection.ipynb",
+    "cells": 10,
+    "code_cells": 9,
+    "original_notebook_sha256": "360c55cd9a6e7a5f0f3792ca3d3014572df36885ca670dffe67582a504e0cc21",
+    "release_notebook_sha256": "9d09055d647407ba058fe95b3031a6474f72a02d462f1754a923d2249a6fa8d6",
+    "cell_order_unchanged": true,
+    "metadata_unchanged": true,
+    "modified_code_cells": [],
+    "removed_output_blocks": [
+      {
+        "cell": 7,
+        "cell_id": "36456de4",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "451f9fe5008e54e4a2f903706923dfe561840125a5677b9f6cb2916a01a0150d",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      },
+      {
+        "cell": 8,
+        "cell_id": "fea7394c",
+        "output_block": 1,
+        "output_type": "stream",
+        "original_output_sha256": "61db3677e941363b7405e6d6944d792383b4016a3f3cae3df45583bb9bbb8560",
+        "reason": "Dataset/medical/generated-response or recovered web example output withheld from public redistribution."
+      }
+    ],
+    "all_other_fields_unchanged": true
+  },
+  {
+    "notebook": "Chroma_DB/Analisi_Chroma_DB_Local.ipynb",
+    "cells": 4,
+    "code_cells": 3,
+    "original_notebook_sha256": "18f215c34d6e09c0687383ab8044339b4ca6526fe6d53e87b3aa2c4900039518",
+    "release_notebook_sha256": "18f215c34d6e09c0687383ab8044339b4ca6526fe6d53e87b3aa2c4900039518",
+    "cell_order_unchanged": true,
+    "metadata_unchanged": true,
+    "modified_code_cells": [],
+    "removed_output_blocks": [],
+    "all_other_fields_unchanged": true
+  }
+]

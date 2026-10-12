@@ -1,0 +1,89 @@
+{
+  "study_name": "EMCRAG-FT",
+  "study_version": "v07.01",
+  "baseline_version": "CRAG_MedGemma_v.06.11",
+  "created_local_time": "2026-08-31 13:04:41",
+  "paths": {
+    "imb_full": "/mnt/f/processed_datasets/IMB_Dataset_Arrow/IMB_Dataset_Safe",
+    "imb_frozen_test": "/mnt/f/processed_datasets/IMB_Curated_Test_Set_1000",
+    "ft_root": "/home/eugrug/Project_CRAG_MedGemma/fine_tuning/v07_01"
+  },
+  "dataset_observed": {
+    "full_rows": 783192,
+    "full_columns": [
+      "ID",
+      "General Category",
+      "Category",
+      "Data",
+      "Url",
+      "Question",
+      "Answer"
+    ],
+    "frozen_rows": 1000,
+    "frozen_question_column": "Question",
+    "frozen_answer_column": "Answer",
+    "frozen_id_column": "ID",
+    "readme_expected_rows": 783192,
+    "attached_plot_total": 783092
+  },
+  "leakage_audit": {
+    "frozen_logical_records": 1000,
+    "frozen_full_rows_excluded": 1000,
+    "unresolved": 0,
+    "method_a_id_available": true,
+    "hash_matched_frozen_records": 1000
+  },
+  "splits": {
+    "seed": 20260831,
+    "dev_size": 1000,
+    "validation_size": 2000,
+    "train_pool_size": 779192,
+    "invalid_qa": 0,
+    "duplicate_removed": 0,
+    "frozen_test_excluded_full_rows": 1000,
+    "nested_sizes": [
+      1000,
+      5000,
+      10000,
+      25000,
+      50000,
+      100000
+    ]
+  },
+  "sft": {
+    "system_prompt": "Sei un assistente medico che risponde in lingua italiana. Fornisci una risposta pertinente e chiara alla domanda dell'utente.",
+    "format": "messages",
+    "question_semantic_rewrite": false,
+    "answer_semantic_rewrite": false
+  },
+  "token_audit": {
+    "sample_size": 20000,
+    "recommended_pilot_max_seq_length": 1024,
+    "percentiles": {
+      "p50": 340.0,
+      "p75": 489.0,
+      "p90": 696.0,
+      "p95": 842.0499999999993,
+      "p97.5": 923.0,
+      "p99": 1029.0,
+      "p99.5": 1149.005000000001,
+      "p100": 2350.0
+    }
+  },
+  "gpu": {
+    "gpu_name": "NVIDIA GeForce RTX 5070 Laptop GPU",
+    "total_vram_gb": 7.96,
+    "bf16_supported": true,
+    "cuda_runtime": "12.8"
+  },
+  "artifact_sha256": {
+    "/home/eugrug/Project_CRAG_MedGemma/fine_tuning/v07_01/manifests/imb_full_metadata_minimal.parquet": "93ec305651d0fc0e803cc89996a40a357fbd51baf04f839a853b6b34a735b7c5",
+    "/home/eugrug/Project_CRAG_MedGemma/fine_tuning/v07_01/reports/frozen_test_leakage_audit.parquet": "1ae4712526c73cbefc0b90ed5d66189173fb00e33b71ffcd2731934d6a6c8a8f",
+    "/home/eugrug/Project_CRAG_MedGemma/fine_tuning/v07_01/manifests/imb_split_manifest.parquet": "07c03f07047695f94f39b9385fb8ee91cf2722c0af1af48338fe94d4b08c6eb8",
+    "/home/eugrug/Project_CRAG_MedGemma/fine_tuning/v07_01/manifests/imb_train_nested_order.parquet": "e990a9b18d17cd0df73095b0c9cdf9d15e148a1dbc7ba8e3eab02aefe0dfc4a9",
+    "/home/eugrug/Project_CRAG_MedGemma/fine_tuning/v07_01/pilot/imb_pilot_1000_sft_messages.jsonl": "051b8142e42f670f02ccc09366473e66e736ad36bdb7e8264f78a5ae4fe92c4b",
+    "/home/eugrug/Project_CRAG_MedGemma/fine_tuning/v07_01/exports/imb_dev_1000_sft_messages.jsonl": "8dcbbd5b848890298145cc8e49caf10f02c06e23819aa58fb626ab4a429962aa",
+    "/home/eugrug/Project_CRAG_MedGemma/fine_tuning/v07_01/exports/imb_validation_2000_sft_messages.jsonl": "0a37e414df3f6bf9136ef563fb74a4d4d59b628a58c67f160dcfd6a870511065",
+    "/home/eugrug/Project_CRAG_MedGemma/fine_tuning/v07_01/pilot/unsloth_studio_pilot_config.json": "9b85515500a6d54707aa3acc95413edef3d732b607a2f67a9e516e7510ca06a9"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20261006,
+  "comparison": "R1_minus_R0",
+  "missing_value_policy": "pairwise exclusion; no zero imputation",
+  "paired_counts_by_metric": {
+    "context_precision": 194,
+    "context_recall": 194,
+    "faithfulness": 191,
+    "noise_sensitivity": 191,
+    "response_relevancy": 194
+  },
+  "paired_csv_sha256": "74a4c2323427112b1225ffd5fb8f592ad5fd509f859e3592b5fd2c8a408718c2",
+  "paired_jsonl_sha256": "0f9f14edd34d88c78cba330b832dd5fce7bd8be0443212e658df84d4e8559340",
+  "r0_run": "ragas_v0611_20260719T010434Z",
+  "r0_scores_path": "/home/eugrug/Project_CRAG_MedGemma/ragas_results/ragas_v0611_20260719T010434Z/ragas_scores_per_record.csv",
+  "r0_scores_sha256": "4fd9d66e73d9d402210f10edaac87216daad47273bfedf4f1a48a56debf6a29b",
+  "r1_accounted_slots": 970,
+  "r1_failures": 2,
+  "r1_failures_path": "/home/eugrug/Project_CRAG_MedGemma/benchmark_r0_r1/ragas_r1_v07_05/R1_ragas_failures.jsonl",
+  "r1_failures_sha256": "ef41a7c4da3cd4660be92f3f56ae1baaf80da4c95ceb5b38138dee8f3f690bed",
+  "r1_scores_path": "/home/eugrug/Project_CRAG_MedGemma/benchmark_r0_r1/ragas_r1_v07_05/R1_ragas_scores.jsonl",
+  "r1_scores_sha256": "86f4cd012d7f09cae4c17cbe4c539b06f4dfe2817c3f12cc096cffa3b75cad91",
+  "r1_valid_scores": 968,
+  "status": "PASS",
+  "summary_csv_sha256": "3b34921674d3fe7cf5a4d724e024c76074f6fe6d3cccc15af8edc8e99621cc2a",
+  "summary_json_sha256": "e085c08bac64c6046e223013be4c54ec61c878d0580ffb731264a34d2efe1141",
+  "tie_tolerance": 1e-12
+}

@@ -1,0 +1,18 @@
+{
+  "TRAIN_5K": {
+    "total": 5000,
+    "fit": 4946,
+    "assistant_partially_truncated": 34,
+    "assistant_completely_truncated": 20,
+    "apparent_unsloth_effective": 4984,
+    "apparent_unsloth_removed": 16
+  },
+  "VALIDATION_2K": {
+    "total": 2000,
+    "fit": 1976,
+    "assistant_partially_truncated": 13,
+    "assistant_completely_truncated": 11,
+    "apparent_unsloth_effective": 1989,
+    "apparent_unsloth_removed": 11
+  }
+}

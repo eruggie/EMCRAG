@@ -1,0 +1,22 @@
+{
+  "base_chat_template_sha256": "7de1c58e208eda46e9c7f86397df37ec49883aeece39fb961e0a6b24088dd3c4",
+  "checkpoint_chat_template_sha256": "42245274a9e05c6a52192104f7ef21575c5bf2f60e8506af3874cbed669dd150",
+  "templates_identical": false,
+  "max_seq_length": 1024,
+  "splits": {
+    "TRAIN_5K": {
+      "source_records": 5000,
+      "fit": 4946,
+      "assistant_partially_truncated": 34,
+      "assistant_completely_truncated": 20,
+      "prompt_not_exact_prefix": 0
+    },
+    "VALIDATION_2K": {
+      "source_records": 2000,
+      "fit": 1976,
+      "assistant_partially_truncated": 13,
+      "assistant_completely_truncated": 11,
+      "prompt_not_exact_prefix": 0
+    }
+  }
+}

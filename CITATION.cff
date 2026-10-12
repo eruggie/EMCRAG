@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the EMCRAG software release and its exact tag or commit."
+title: "EMCRAG: Edge Medical Corrective RAG for Italian Medical Question Answering"
+type: software
+authors:
+  - family-names: Ruggieri
+    given-names: Eugenio
+    orcid: "https://orcid.org/0009-0000-3014-3545"
+version: "v1.0.0"
+repository-code: "https://github.com/eruggie/EMCRAG"
+license: Apache-2.0
+keywords:
+  - medical question answering
+  - corrective RAG
+  - MedGemma
+  - Italian
+  - QLoRA
+  - RAGAS
+abstract: "Archival source and numerical evaluation artefacts for EMCRAG v06.11 and the FT-10K M0/M1 and R0/R1 comparisons. Dataset and model terms are separate from the software licence. The scientific source freeze is identified by its published tag and commit."

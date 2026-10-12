@@ -1,0 +1,10 @@
+{
+  "source": "A complete statistics section recovered from the recorded manuscript-preparation file-add operation; the complete document-building script is not reproduced.",
+  "source_diff_original_chars": 48607,
+  "source_diff_retrieved_chars": 20000,
+  "fragment_complete": true,
+  "bootstrap_workflow_recovered": false,
+  "excerpt_sha256": "48e975a43c94a2f70d16a112ea18196befa626a58494f0f5f47390dec6b3dabe",
+  "baseline_scores_sha256": "4fd9d66e73d9d402210f10edaac87216daad47273bfedf4f1a48a56debf6a29b",
+  "source_context": "Author's manuscript-preparation history; exact local identifiers retained in private audit records."
+}

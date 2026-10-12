@@ -1,0 +1,16 @@
+{
+  "IMB": 100,
+  "MMMED": 96,
+  "image_identity_vs_historical_R0": "Not verifiable: historical image bytes/hashes absent from R0 archive.",
+  "image_policy": "Current downloaded bytes frozen for identical M0/M1 inputs; no resampling.",
+  "images_validated": 96,
+  "manifest_sha256": "51fe2c0d201bf00a9bbed368195009d4ad72edbe740f146179cf04694389c1b5",
+  "mmmed_source_fields_match_after_R0_strip": true,
+  "r0_order_verified": true,
+  "records": 196,
+  "source_sha256": {
+    "crag_outputs_selected_records.jsonl": "6dc949c69cb98a43d528af1d4bfd7a8bc5e5a5ce5d2ccabb990a1ec908969fa8",
+    "ragas_extended_run_manifest.json": "70ee536db6136bf87d8a3ecbef35f0dd5b9f3573d80ae175698b7f8944682a37"
+  },
+  "status": "PASS"
+}

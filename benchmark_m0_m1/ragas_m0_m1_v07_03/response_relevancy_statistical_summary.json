@@ -1,0 +1,69 @@
+{
+  "analysis": "M1 minus M0 Response Relevancy",
+  "failure_file_sha256": "f8af57fe741061eda3f6649cc05696bca0a07e9e6d9d18c1b2a81cf95a86543b",
+  "groups": [
+    {
+      "M0_mean": 0.4406988718442286,
+      "M1_losses": 127,
+      "M1_mean": 0.23030709788022163,
+      "M1_wins": 53,
+      "bootstrap_95CI_high": -0.16435934058633858,
+      "bootstrap_95CI_low": -0.25541118951157243,
+      "bootstrap_repetitions": 20000,
+      "bootstrap_seed": 20260831,
+      "group": "Overall",
+      "matched_rank_biserial": -0.625537139349294,
+      "mean_delta_M1_minus_M0": -0.210391773964007,
+      "median_delta_M1_minus_M0": -0.26960932045119157,
+      "n_paired": 193,
+      "ties": 13,
+      "wilcoxon_p_two_sided": 3.384429524390863e-13,
+      "wilcoxon_statistic": 3050.0
+    },
+    {
+      "M0_mean": 0.4652664685596121,
+      "M1_losses": 78,
+      "M1_mean": 0.1484309915049632,
+      "M1_wins": 16,
+      "bootstrap_95CI_high": -0.2583757380150194,
+      "bootstrap_95CI_low": -0.3724774474973594,
+      "bootstrap_repetitions": 20000,
+      "bootstrap_seed": 20260832,
+      "group": "IMB_Curated_Test_Set_1000",
+      "matched_rank_biserial": -0.8221724524076148,
+      "mean_delta_M1_minus_M0": -0.31683547705464893,
+      "median_delta_M1_minus_M0": -0.4368376617246509,
+      "n_paired": 98,
+      "ties": 4,
+      "wilcoxon_p_two_sided": 4.467275158132249e-12,
+      "wilcoxon_statistic": 397.0
+    },
+    {
+      "M0_mean": 0.4153554562852016,
+      "M1_losses": 49,
+      "M1_mean": 0.3147687655094357,
+      "M1_wins": 37,
+      "bootstrap_95CI_high": -0.037072794379409815,
+      "bootstrap_95CI_low": -0.16519559813891174,
+      "bootstrap_repetitions": 20000,
+      "bootstrap_seed": 20260833,
+      "group": "MMMED_Italian",
+      "matched_rank_biserial": -0.29323710237904305,
+      "mean_delta_M1_minus_M0": -0.1005866907757658,
+      "median_delta_M1_minus_M0": -0.0074549196119004235,
+      "n_paired": 95,
+      "ties": 9,
+      "wilcoxon_p_two_sided": 0.0181845217031733,
+      "wilcoxon_statistic": 1322.0
+    }
+  ],
+  "missing_pair": {
+    "condition": "M1",
+    "sample_id": "imb_00791",
+    "score_imputed": false
+  },
+  "n_failures": 1,
+  "n_paired": 193,
+  "n_scores": 387,
+  "score_file_sha256": "06cd711dce97901d8b32615ce305b7429c6c4dface9204d879ab851c5262f1d6"
+}
