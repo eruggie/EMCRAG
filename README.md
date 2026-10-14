@@ -4,9 +4,13 @@
 
 The rapid adoption of generative AI systems in the healthcare sector requires maintaining an adequate level of confidentiality to safeguard patient privacy and, on the other, developing streamlined systems that enable deployment on local edge hardware, thereby eliminating the need to rely on the cloud-based systems of major global AI providers. This paper describes Edge Medical Corrective RAG (EMCRAG) developed for Italian medical question answering, utilizing a compact multimodal LLM running on local hardware. The corrective RAG algorithm is used to improve the robustness of the generation by combining vision-guided query augmentation, local evidence retrieval, corrective routing, conditional web recovery and token-aware generation. A separate RAGAS benchmark distinguished semantic quality from operational failures. Evaluation revealed focused retrieval for corpus-aligned textual questions, but weaker support for image-centred questions; topical answers could remain insufficiently grounded. An additional experimental setup involved a separate RAGAS evaluation, replacing the original MedGemma generator node with a version obtained through fine-tuning on an isolated subset of the Italian medical dataset. This benchmark did not show substantial improvements: standalone relevance deteriorated, while the adapted pipeline showed stronger textual grounding. Changed external evidence limits attribution of this gain to the adapter alone. The research demonstrates a feasible, inspectable local workflow on edge devices but future developments require clinical validation by expert physicians.
 
-## Independent research on EMCRAG
+![EMCRAG pipeline architecture](docs/assets/emcrag-architecture.png)
 
-This repository is the public research home of **Edge Medical Corrective RAG (EMCRAG)**, developed by **Eugenio Ruggieri**, Independent Researcher, Prato, Italy ([ORCID](https://orcid.org/0009-0000-3014-3545)). It brings together the implementation, experimental data, benchmark measurements and statistical analyses for Italian medical question answering on local hardware.
+*EMCRAG pipeline architecture: vision-guided input processing, retrieval, evaluation and corrective routing, and MedGemma-based generation.*
+
+## Introduction to EMCRAG
+
+This repository is the public research home of **Edge Medical Corrective RAG (EMCRAG)**, developed by **Eugenio Ruggieri**, Prato, Italy ([ORCID](https://orcid.org/0009-0000-3014-3545)). It brings together the implementation, experimental data, benchmark measurements and statistical analyses for Italian medical question answering on local hardware.
 
 EMCRAG combines vision-guided query augmentation, local retrieval, corrective routing, conditional web recovery and token-aware generation. The research examines both the behaviour of this pipeline and the effect of adapting its final MedGemma generator through FT-10K supervised fine-tuning.
 
